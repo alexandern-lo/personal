@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LiveOakApp.Droid.CustomViews.CustomTextView
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        custom:custom_font="OpenSans-Semibold"
+        style="@style/Text"
+        android:textSize="16sp"
+        android:background="@drawable/tab_selector" />
+</merge>

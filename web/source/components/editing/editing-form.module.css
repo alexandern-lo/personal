@@ -1,0 +1,11 @@
+.table-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.table-wrapper > table {
+  width: 50%;
+  max-width: 50%;
+}

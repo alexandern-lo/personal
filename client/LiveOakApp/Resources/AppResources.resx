@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <!-- Global -->
+    <data name="ApplicationTitle" xml:space="preserve">
+        <value>Avend</value>
+    </data>
+    <data name="ActivityDialogTitle" xml:space="preserve">
+        <value>Loading...</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Cancel</value>
+    </data>
+    <data name="Save" xml:space="preserve">
+        <value>Save</value>
+    </data>
+    <data name="Done" xml:space="preserve">
+        <value>Done</value>
+    </data>
+    <data name="TryAgain" xml:space="preserve">
+        <value>Try again</value>
+    </data>
+	 <data name="Delete" xml:space="preserve">
+        <value>Delete</value>
+    </data>
+    <data name="Events" xml:space="preserve">
+        <value>Events</value>
+    </data>
+    <data name="Back" xml:space="preserve">
+        <value>Back</value>
+    </data>
+    <data name="Reset" xml:space="preserve">
+        <value>Reset</value>
+    </data>
+    <data name="Ok" xml:space="preserve">
+        <value>Ok</value>
+    </data>
+	<data name="Add" xml:space="preserve">
+        <value>Add</value>
+    </data>
+    <data name="HomeEmailType" xml:space="preserve">
+        <value>Home</value>
+    </data>
+    <data name="MobileEmailType" xml:space="preserve">
+        <value>Mobile</value>
+    </data>
+    <data name="WorkEmailType" xml:space="preserve">
+        <value>Work</value>
+    </data>
+	<data name="OtherEmailType" xml:space="preserve">
+        <value>Other</value>
+    </data>
+    <data name="EmailErrorAlert" xml:space="preserve">
+        <value>Failed to send email. Are there no emails configured?</value>
+    </data>
+	<data name="Confirm" xml:space="preserve">
+        <value>Confirm</value>
+    </data>
+	<data name="Error" xml:space="preserve">
+        <value>Error</value>
+    </data>
+	<data name="Success" xml:space="preserve">
+        <value>Success</value>
+    </data>
+	<data name="NoCameraAccessTitle" xml:space="preserve">
+        <value>No camera access</value>
+    </data>
+	<data name="NoCameraAccessMessage" xml:space="preserve">
+        <value>Please go to Settings and enable the camera for this app to use this feature.</value>
+    </data>
+	<data name="NoPhotosAccessTitle" xml:space="preserve">
+        <value>No Photos access</value>
+    </data>
+	<data name="NoPhotosAccessMessage" xml:space="preserve">
+        <value>Please go to Settings and enable the Photos for this app to use this feature.</value>
+    </data>
+	<data name="SettingsLabel" xml:space="preserve">
+        <value>Settings</value>
+    </data>
+	<data name="InternetErrorMessage" xml:space="preserve">
+        <value>The internet connection appears to be offline</value>
+	</data>
+	<data name="Website" xml:space="preserve">
+        <value>Website</value>
+	</data>
+    <!-- Startup -->
+    <data name="StartupProgressLogin" xml:space="preserve">
+        <value>Logging in</value>
+    </data>
+    <data name="StartupProgressTerms" xml:space="preserve">
+        <value>Checking for new Terms of Use</value>
+    </data>
+    <!-- Login -->
+    <data name="LoginButtonTitle" xml:space="preserve">
+        <value>Login</value>
+    </data>
+    <data name="ForgotPasswordButtonTitle" xml:space="preserve">
+        <value>Forgot password?</value>
+    </data>
+    <data name="MSALNoUserPleaseSignUp" xml:space="preserve">
+        <value>This account doesn't exist, please go to Avend web portal to create an account.</value>
+    </data>
+	<data name="AdminUserRoleMessage" xml:space="preserve">
+        <value>Admin panel is not available in mobile app. Please, proceed to the &lt;a href=&quot;http://portal.avend.co&quot;&gt;website&lt;/a&gt; to use it</value>
+	</data>
+	<!-- Logout -->
+	<data name="LogoutMessage" xml:space="preserve">
+        <value>Do you really want to logout?</value>
+    </data>
+	<data name="LogoutTitle" xml:space="preserve">
+        <value>Logout</value>
+    </data>
+    <!-- Terms -->
+    <data name="TermsAccept" xml:space="preserve">
+        <value>Accept</value>
+    </data>
+    <data name="TermsDecline" xml:space="preserve">
+        <value>Decline</value>
+    </data>
+    <!-- SubscriptionExpired -->
+    <data name="SubscriptionExpiredRecheck" xml:space="preserve">
+        <value>Check again</value>
+    </data>
+    <data name="SubscriptionExpiredLogout" xml:space="preserve">
+        <value>Logout</value>
+    </data>
+    <data name="SubscriptionExpiredLabel" xml:space="preserve">
+        <value>Subscription Expired</value>
+    </data>
+	<data name="RenewSubscriptionLabel" xml:space="preserve">
+        <value>Renew subscription</value>
+    </data>
+    <!-- Preload -->
+    <data name="PreloadProgressEvents" xml:space="preserve">
+        <value>Downloading Events</value>
+    </data>
+    <data name="SkipButton" xml:space="preserve">
+        <value>Skip</value>
+    </data>
+    <!-- Menu -->
+    <data name="MenuDashboard" xml:space="preserve">
+        <value>Dashboard</value>
+    </data>
+    <data name="MenuLeads" xml:space="preserve">
+        <value>Leads</value>
+    </data>
+    <data name="SelectLead" xml:space="preserve">
+        <value>Select lead</value>
+    </data>
+    <data name="MenuEvents" xml:space="preserve">
+        <value>Events</value>
+    </data>
+    <data name="MenuAnalytics" xml:space="preserve">
+        <value>Analytics</value>
+    </data>
+    <data name="MenuRecentActivity" xml:space="preserve">
+        <value>Recent activity</value>
+    </data>
+    <data name="MenuMyResources" xml:space="preserve">
+        <value>My resources</value>
+    </data>
+    <data name="MenuInbox" xml:space="preserve">
+        <value>Inbox</value>
+    </data>
+    <data name="MenuProfile" xml:space="preserve">
+        <value>Profile</value>
+    </data>
+    <data name="MenuSupport" xml:space="preserve">
+        <value>Support</value>
+    </data>
+    <data name="MenuProfileHint" xml:space="preserve">
+        <value>View and edit your profile</value>
+    </data>
+    <!-- Dashboard -->
+	<data name="LeadsTaken" xml:space="preserve">
+        <value>Leads taken</value>
+    </data>
+	<data name="ResourceConversions" xml:space="preserve">
+        <value>Resource conversions</value>
+    </data>
+	<data name="Sent/Opened" xml:space="preserve">
+        <value>Sent/Opened</value>
+    </data>
+	<data name="CostPerLead" xml:space="preserve">
+        <value>Cost per lead</value>
+    </data>
+    <data name="YearlyExpensesToDate" xml:space="preserve">
+        <value>Yearly expenses to date</value>
+    </data>
+	<data name="AverageCostPerLead" xml:space="preserve">
+        <value>Average cost per lead</value>
+    </data>
+	<data name="AddExpense" xml:space="preserve">
+        <value>+Add expense</value>
+    </data>
+    <data name="ChooseEventGoalAlertTitle" xml:space="preserve">
+        <value>Choose event goal</value>
+    </data>
+	<data name="ChooseEventGoalErrorAlert" xml:space="preserve">
+        <value>Input valid goal number</value>
+    </data>
+	<data name="AddExpenseAlertTitle" xml:space="preserve">
+        <value>New expense</value>
+    </data>
+	<data name="NetworkError" xml:space="preserve">
+        <value>Network connectivity error, please try again when connection is restored.</value>
+    </data>
+	<data name="AddExpenseErrorAlert" xml:space="preserve">
+        <value>Input valid expense value</value>
+    </data>
+	<data name="AddExpenseTextFieldPlaceholder" xml:space="preserve">
+        <value>Expense value</value>
+    </data>
+	<data name="AddExpenseDescriptionTextFieldPlaceholder" xml:space="preserve">
+        <value>Description</value>
+    </data>
+	<data name="Leads30Days" xml:space="preserve">
+        <value>Leads (30 days)</value>
+    </data>
+	<data name="AllTime" xml:space="preserve">
+        <value>all time</value>
+    </data>
+	<data name="Goals" xml:space="preserve">
+        <value>Goals</value>
+    </data>
+	<data name="Goal" xml:space="preserve">
+        <value>Goal</value>
+    </data>
+	<data name="Spent" xml:space="preserve">
+        <value>Spent</value>
+    </data>
+	<data name="AddExpenseRequestAlertTitle" xml:space="preserve">
+        <value>Add expense request..</value>
+    </data>
+	<data name="EditGoalRequestAlertTitle" xml:space="preserve">
+        <value>Edit goal request..</value>
+    </data>
+	<!-- Event List -->
+	<data name="EventsNavigationBarTitle" xml:space="preserve">
+        <value>Events</value>
+    </data>
+    <data name="SectionNow" xml:space="preserve">
+        <value>Happening now</value>
+    </data>
+    <data name="SectionUpcoming" xml:space="preserve">
+        <value>Upcoming events</value>
+    </data>
+    <data name="SectionRecent" xml:space="preserve">
+        <value>Recent events</value>
+    </data>
+	<data name="MoreEventsTitle" xml:space="preserve">
+        <value>More Events</value>
+    </data>
+    <data name="SelectEventTitle" xml:space="preserve">
+        <value>Select Event</value>
+    </data>
+    <data name="UpdatingList" xml:space="preserve">
+        <value>Updating the list</value>
+    </data>
+    <!-- Event Details -->
+    <data name="EventAttendeesButtonTitle" xml:space="preserve">
+        <value>Event Attendees</value>
+    </data>
+    <data name="EventAgendaButtonTitle" xml:space="preserve">
+        <value>Event Agenda</value>
+    </data>
+    <data name="EventTypeConference" xml:space="preserve">
+        <value>Conference</value>
+    </data>
+    <data name="EventTypePersonal" xml:space="preserve">
+        <value>Personal event</value>
+    </data>
+	<data name="TotalExpensesToDate" xml:space="preserve">
+        <value>Total expenses to date:</value>
+    </data>
+	<data name="Reccuring" xml:space="preserve">
+        <value>Reccuring</value>
+	</data>
+	<data name="MapError" xml:space="preserve">
+        <value>Map is unavailable</value>
+	</data>
+    <!-- Event agenda -->
+    <data name="AgendaNavigationBarTitle" xml:space="preserve">
+        <value>Event agenda</value>
+    </data>
+	<data name="NoAgendaLabel" xml:space="preserve">
+        <value>No agenda</value>
+    </data>
+    <!-- Attendees List -->
+	<data name="AttendeesNavigationBarTitle" xml:space="preserve">
+        <value>Attendees</value>
+    </data>
+    <data name="ButtonQrBarScan" xml:space="preserve">
+        <value>QR / Bar scan</value>
+    </data>
+    <data name="ButtonManualEntry" xml:space="preserve">
+        <value>Manual entry</value>
+    </data>
+    <data name="AttendeesSearchHint" xml:space="preserve">
+        <value>Search attendees</value>
+    </data>
+	<data name="NoAttendeesLabel" xml:space="preserve">
+        <value>No attendees</value>
+    </data>
+	<data name="NoMatchesLabel" xml:space="preserve">
+        <value>No matches found</value>
+    </data>
+
+    <!-- Attendee Details -->
+    <data name="AttendeeDetailsNavigationBarTitle" xml:space="preserve">
+        <value>Details</value>
+    </data>
+    <data name="AttendeePhone" xml:space="preserve">
+        <value>Phone number</value>
+    </data>
+    <data name="AttendeeEmail" xml:space="preserve">
+        <value>E-mail</value>
+    </data>
+    <data name="AttendeeRegion" xml:space="preserve">
+        <value>Region</value>
+    </data>
+    <data name="AttendeeSegment" xml:space="preserve">
+        <value>Market segment</value>
+    </data>
+    <data name="AttendeeInterests" xml:space="preserve">
+        <value>Product interests</value>
+    </data>
+	<data name="WrongPhoneFormat" xml:space="preserve">
+        <value>Wrong phone number format</value>
+    </data>
+    <data name="WrongEmailFormat" xml:space="preserve">
+        <value>Wrong E-mail format</value>
+    </data>
+
+	<!-- Leads List -->
+    <data name="LeadsNavigationBarTitle" xml:space="preserve">
+        <value>Leads</value>
+    </data>
+    <data name="LeadsAnyEvent" xml:space="preserve">
+        <value>All Leads</value>
+    </data>
+    <data name="LeadsEventNumberFormat" xml:space="preserve">
+        <value>Event #{0}</value>
+    </data>
+    <data name="LeadsSelectLead" xml:space="preserve">
+        <value>Select Lead</value>
+    </data>
+    <data name="LeadDefaultName" xml:space="preserve">
+        <value>Lead</value>
+    </data>
+	<data name="ButtonBusinessCardScan" xml:space="preserve">
+        <value>Business card scan</value>
+    </data>
+	<data name="BusinessCardLabel" xml:space="preserve">
+        <value>Business card</value>
+    </data>
+	<data name="FrontBusinessCardLabel" xml:space="preserve">
+        <value>Front business card</value>
+    </data>
+	<data name="BackBusinessCardLabel" xml:space="preserve">
+        <value>Back business card</value>
+    </data>
+	<data name="NewBusinessCardPhotoLabel" xml:space="preserve">
+        <value>New business card photo</value>
+    </data>
+	<data name="AddFrontCardLabel" xml:space="preserve">
+        <value>Add Front</value>
+    </data>
+	<data name="ReplaceFrontCardLabel" xml:space="preserve">
+        <value>Replace Front</value>
+    </data>
+	<data name="AddBackCardLabel" xml:space="preserve">
+        <value>Add Back</value>
+    </data>
+	<data name="ReplaceBackCardLabel" xml:space="preserve">
+        <value>Replace Back</value>
+    </data>
+	<data name="AddToExistingLead" xml:space="preserve">
+        <value>Add to existing lead</value>
+    </data>
+	<data name="CreateNewLead" xml:space="preserve">
+        <value>Create new lead</value>
+    </data>
+    <!-- Attendees Filter -->
+    <data name="CategoryFilterNavigationBarTitle" xml:space="preserve">
+        <value>Category Filter</value>
+    </data>
+    <data name="AttendeesFilterResetAll" xml:space="preserve">
+        <value>Reset all filters</value>
+    </data>
+	<data name="CardScannerTitle" xml:space="preserve">
+        <value>Card scanner</value>
+    </data>
+    <!-- Lead Contacts form -->
+	<data name="LeadNavigationBarTitle" xml:space="preserve">
+        <value>Lead</value>
+    </data>
+    <data name="FirstNameTitle" xml:space="preserve">
+        <value>First name</value>
+    </data>
+	<data name="FirstNameTitle" xml:space="preserve">
+        <value>First name</value>
+    </data>
+    <data name="SurnameTitle" xml:space="preserve">
+        <value>Last name</value>
+    </data>
+    <data name="EventTitle" xml:space="preserve">
+        <value>Event</value>
+    </data>
+    <data name="CompanyTitle" xml:space="preserve">
+        <value>Company</value>
+    </data>
+    <data name="JobTitle" xml:space="preserve">
+        <value>Title</value>
+    </data>
+    <data name="AddressTitle" xml:space="preserve">
+        <value>Address</value>
+    </data>
+    <data name="CityTitle" xml:space="preserve">
+        <value>City</value>
+    </data>
+    <data name="StateTitle" xml:space="preserve">
+        <value>State / Province</value>
+    </data>
+    <data name="ZipTitle" xml:space="preserve">
+        <value>Zip Code</value>
+    </data>
+    <data name="CompanyURLTitle" xml:space="preserve">
+        <value>Company URL</value>
+    </data>
+    <data name="CountryTitle" xml:space="preserve">
+        <value>Country</value>
+    </data>
+    <data name="NotesTitle" xml:space="preserve">
+        <value>Notes</value>
+    </data>
+    <data name="AddPhotoButton" xml:space="preserve">
+        <value>  Add photo</value>
+    </data>
+    <data name="LeadsSearchHint" xml:space="preserve">
+        <value>Search leads</value>
+    </data>
+    <data name="OldLeadControllerTitle" xml:space="preserve">
+        <value>Lead</value>
+    </data>
+	<data name="NewLeadControllerTitle" xml:space="preserve">
+		<value>New Lead</value>
+	</data>
+	<data name="TakePhotoAlertAction" xml:space="preserve">
+		<value>Take a photo</value>
+	</data>
+	<data name="ChoosePhotoAlertAction" xml:space="preserve">
+		<value>Choose photo</value>
+	</data>
+	<data name="NoEventSelectedError" xml:space="preserve">
+		<value>No event selected</value>
+	</data>
+	<data name="NoEvent" xml:space="preserve">
+		<value>No Event</value>
+	</data>
+	<data name="ChangeEventWarningTitle" xml:space="preserve">
+		<value>Changing event</value>
+	</data>
+	<data name="ChangeEventWarningText" xml:space="preserve">
+		<value>Warning! This will delete all answers in the Qualify tab.</value>
+	</data>
+	<data name="LeadPhoneLabel" xml:space="preserve">
+        <value>Phone number</value>
+    </data>
+	<data name="LeadEmailLabel" xml:space="preserve">
+        <value>E-mail</value>
+    </data>
+	<data name="LeadNotesLabel" xml:space="preserve">
+        <value>My notes</value>
+    </data>
+    <data name="LeadEntryLocationLabel" xml:space="preserve">
+        <value>First Entry Location</value>
+    </data>
+    <data name="LeadEntryLocationLabel" xml:space="preserve">
+        <value>First Entry Location</value>
+    </data>
+	<data name="LeadEntryLocationAcquiringLabel" xml:space="preserve">
+        <value>Acquiring location...</value>
+    </data>
+    <data name="LeadEntryLocationUnknownLabel" xml:space="preserve">
+        <value>Unknown location</value>
+    </data>
+	<!-- Recent Activity -->
+	<data name="RecentActivityItemEventTitle" xml:space="preserve">
+        <value>Event:</value>
+    </data>
+	<data name="TodayAtDateTitle" xml:space="preserve">
+        <value>Today at </value>
+    </data>
+	<data name="YesterdayAtDateTitle" xml:space="preserve">
+        <value>Yesterday at </value>
+    </data>
+    <data name="JustNow" xml:space="preserve">
+        <value>Just now</value>
+	</data>
+	<data name="MinuteAgo" xml:space="preserve">
+        <value>A minute ago</value>
+    </data>
+	<data name="XMinutesAgo" xml:space="preserve">
+        <value>{0} minutes ago</value>
+    </data>
+	<data name="NoRecentActivityLabel" xml:space="preserve">
+        <value>No recent activity</value>
+    </data>
+	
+    <!-- My Resources -->
+    <data name="SendResourcesButton" xml:space="preserve">
+        <value>Send Resources</value>
+    </data>
+    <data name="ReloadButton" xml:space="preserve">
+        <value>Reload</value>
+    </data>
+    <data name="NoResourcesLabel" xml:space="preserve">
+        <value>No resources available now</value>
+    </data>
+    <data name="LeadsAlertAction" xml:space="preserve">
+        <value>Select leads</value>
+    </data>
+    <data name="EmailAlertAction" xml:space="preserve">
+        <value>Direct E-mail</value>
+    </data>
+    <data name="EmailSubject" xml:space="preserve">
+        <value>Avend resources</value>
+    </data>
+    <data name="ResourceOpenButton" xml:space="preserve">
+        <value>Open</value>
+    </data>
+	<data name="NoResourcessLabel" xml:space="preserve">
+        <value>No resources</value>
+    </data>
+    <!-- Tabs -->
+    <data name="TabContact" xml:space="preserve">
+        <value>Contact</value>
+    </data>
+    <data name="TabQualify" xml:space="preserve">
+        <value>Qualify</value>
+    </data>
+    <!-- Qualify tab -->
+    <data name="QualifyStateCold" xml:space="preserve">
+    	<value>Cold</value>
+    </data>
+    <data name="QualifyStateWarm" xml:space="preserve">
+    	<value>Warm</value>
+    </data>
+    <data name="QualifyStateHot" xml:space="preserve">
+    	<value>Hot</value>
+    </data>
+	<!-- Lead overwrite -->
+    <data name="LeadOverwriteTitle" xml:space="preserve">
+        <value>Server has more recent data for a lead</value>
+    </data>
+    <data name="LeadOverwriteInfoFormat" xml:space="preserve">
+        <value>Lead: {0}
+Changed on server: {1}
+Changed locally: {2}
+</value>
+    </data>
+    <data name="LeadOverwriteMessageStart" xml:space="preserve">
+        <value>Do you want to overwrite server data with local data?</value>
+    </data>
+    <data name="LeadOverwriteAction" xml:space="preserve">
+        <value>Overwrite with local data</value>
+    </data>
+    <data name="LeadDiscardAction" xml:space="preserve">
+        <value>Discard local data</value>
+    </data>
+    <data name="LeadDecideLaterAction" xml:space="preserve">
+        <value>Decide Later</value>
+    </data>
+	<data name="LeadChangesWillNotBeSavedTitle" xml:space="preserve">
+        <value>Confirm exit</value>
+    </data>
+	<data name="LeadChangesWillNotBeSaved" xml:space="preserve">
+        <value>Missing required fields. Changes will not be saved.</value>
+    </data>
+	<data name="LeadWillNotBeExportedMessage" xml:space="preserve">
+        <value>Missing required fields. Lead will not be exported</value>
+    </data>
+	<!-- QR codes -->
+	<data name="InvalidQRCodeErrorMessage" xml:space="preserve">
+    	<value>This QR code doesn't contain vCard</value>
+    </data>
+	<data name="QRCodeContainsUriErrorMessage" xml:space="preserve">
+    	<value>This QR code contains an URL</value>
+    </data>
+	<data name="InvalidQRCodeMessage" xml:space="preserve">
+    	<value>Invalid QR code</value>
+    </data>
+	<data name="TooLargeVCardFileException" xml:space="preserve">
+    	<value>File is too large for a vCard</value>
+    </data>
+    <data name="Flash" xml:space="preserve">
+        <value>Flash</value>
+    </data>
+	<data name="DownloadingVCardMessage" xml:space="preserve">
+        <value>Downloading vCard file..</value>
+    </data>
+	<!-- CRM -->
+	<data name="ExportingMessage" xml:space="preserve">
+        <value>Exporting </value>
+    </data>
+    <data name="ExportScheduledMessage" xml:space="preserve">
+        <value>will be exported to CRM when internet connection is restored</value>
+    </data>
+	<data name="ExportFailedMessage" xml:space="preserve">
+        <value>Export to CRM failed: </value>
+	</data>
+	<data name="ExportSuccessMessage" xml:space="preserve">
+        <value>successfully exported to </value>
+    </data>
+	<data name="SuccessExportLeadsTitle" xml:space="preserve">
+        <value>Succesfully exported leads:</value>
+    </data>
+	<data name="FailedExportLeadsTitle" xml:space="preserve">
+        <value>Failed to export leads:</value>
+    </data>
+	<data name="PleaseRefreshLeadsList" xml:space="preserve">
+        <value>Please refresh your leads list to view changes</value>
+    </data>
+	<data name="ExportResultTitle" xml:space="preserve">
+        <value>Export result</value>
+    </data>
+	<!-- Inbox -->
+	<data name="LastUpdatedFormat" xml:space="preserve">
+        <value>Updated at {0}</value>
+	</data>
+	<data name="CameraPermission" xml:space="preserve">
+        <value>Camera permission</value>
+	</data>
+	<data name="CameraPermissionMessage" xml:space="preserve">
+        <value>Permission is needed to take photos</value>
+    </data>
+	<data name="LocationPermission" xml:space="preserve">
+        <value>Location permission</value>
+    </data>
+    <data name="LocationPermissionMessage" xml:space="preserve">
+        <value>Permission is needed to access first entry location</value>
+    </data>
+</root>

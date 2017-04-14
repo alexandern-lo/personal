@@ -1,0 +1,21 @@
+.panel {
+  display: flex;
+  height: 40px;
+  min-height: 40px;
+  padding-right: 30px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #5A9DFF;
+}
+
+.tab {
+  margin-left: 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.selected {
+  border-bottom: solid 2px white;
+}

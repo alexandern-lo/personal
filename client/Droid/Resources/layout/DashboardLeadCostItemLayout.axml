@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical">
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:background="@color/dashboard_gray"
+		android:layout_alignParentTop="true" />
+	<LiveOakApp.Droid.CustomViews.CustomTextView
+		android:id="@+id/event_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+        android:ellipsize="end"
+		android:scrollHorizontally="true"
+		android:layout_toLeftOf="@+id/spent_title"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		style="@style/Text.Dark"
+		android:textSize="12sp"
+		app:custom_font="OpenSans-Regular" />
+	<LiveOakApp.Droid.CustomViews.CustomTextView
+		android:id="@+id/spent_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/event_spent"
+		android:layout_alignParentTop="true"
+		app:localized_string_id="Spent"
+		app:comment="Spent"
+		style="@style/Text.Gray"
+		android:textSize="12sp"
+		app:custom_font="OpenSans-Regular" />
+	<LiveOakApp.Droid.CustomViews.CustomTextView
+		android:id="@+id/event_spent"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/lead_cost"
+		android:layout_alignParentTop="true"
+		style="@style/Text.Dark"
+		android:textSize="12sp"
+		app:custom_font="OpenSans-Regular" />
+	<ProgressBar
+		android:id="@+id/progress_bar"
+		android:layout_width="match_parent"
+		android:layout_height="8dp"
+		android:layout_below="@id/event_title"
+		android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@id/lead_cost"
+		android:layout_gravity="center_vertical"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:progressDrawable="@drawable/dark_bold_progress_bar" />
+	<LiveOakApp.Droid.CustomViews.CustomTextView
+		android:id="@+id/lead_cost"
+		android:layout_width="80dp"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:gravity="center_vertical|right"
+		android:layout_alignParentRight="true"
+		style="@style/Text.Dark"
+		android:layout_gravity="right"
+		android:textSize="24sp"
+		app:custom_font="OpenSans-Regular" />
+</RelativeLayout>

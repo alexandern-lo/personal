@@ -1,0 +1,36 @@
+@import 'styles/colors.css';
+
+.add-button {
+  width: 72px;
+  height: 24px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: #FFF;
+  background-color: var(--color-button-create);
+  &:disabled {
+    background-color: var(--color-button-disabled);
+  }
+}
+
+.remove-button {
+  min-width: 27px;
+  text-indent: -100000px;
+  background: var(--color-button-delete) url(assets/icon_close_white.svg) no-repeat center;
+  background-size: 11px 11px;
+  &:disabled {
+    background-color: var(--color-button-disabled);
+  }
+}
+
+.delete-button {
+  padding: 8px 38px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+  background-color: var(--color-button-delete);
+  &:disabled {
+    background-color: var(--color-button-disabled);
+  }
+}

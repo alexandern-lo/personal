@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+	<!-- Text size -->
+
+	<dimen name="text_xxlarge">26sp</dimen>
+	<dimen name="text_xlarge">20sp</dimen>
+	<dimen name="text_large">18sp</dimen>
+	<dimen name="text_medium">16sp</dimen>
+	<dimen name="text_small">14sp</dimen>
+	<dimen name="text_xsmall">12sp</dimen>
+
+	<!-- Button size -->
+
+	<dimen name="button_height_tall">50dp</dimen>
+	<dimen name="button_height_medium">40dp</dimen>
+	<dimen name="button_height_small">30dp</dimen>
+	
+</resources>

@@ -1,0 +1,55 @@
+button =
+  border-radius 0
+
+login-button =
+  border-radius 0.41875rem
+  color white-color
+
+button
+  display: inline-block
+  margin-bottom 0
+  vertical-align middle
+  touch-action manipulation
+  border 0px solid transparent
+  cursor pointer
+  font-mixin(14px, 400, normal, center)
+  background-image none
+  white-space nowrap
+  box-shadow none
+  padding 0
+
+.btn-login
+  font-mixin(1.34rem, 400, normal)
+  {login-button}
+  padding 0.92125rem 3.5384375rem
+  background-color blue-color
+  text-decoration none
+  &:hover
+    background-color tint(blue-color, 20%)
+  &:active
+    background-color shade(blue-color, 20%)
+
+.btn-accept-terms
+  @extends .btn-login
+  width 11.6875rem
+
+.btn-decline-terms
+  @extends .btn-login
+  width 11.6875rem
+  background-color red-color
+  &:hover
+    background-color tint(red-color, 20%)
+  &:active
+    background-color shade(red-color, 20%)
+
+.btn-create-account
+  font-mixin(1.34rem, 400, normal)
+  {login-button}
+  background none
+  padding 0.879375rem 1.8425rem
+  border-width 2px
+  border-color create-account-border-color
+  &:hover
+    border-color tint(create-account-border-color, 20%)
+  &:active
+    border-color shade(create-account-border-color, 20%)

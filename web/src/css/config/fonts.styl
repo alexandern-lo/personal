@@ -1,0 +1,15 @@
+// General
+general-font =
+  font-family "Open Sans", sans-serif
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+//
+font-mixin(size, weight, style, align = right)
+  {general-font}
+  text-align align
+  font-size size
+  font-style style
+  font-variant style
+  font-weight weight
+  //line-height size + 2.3px

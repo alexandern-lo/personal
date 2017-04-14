@@ -1,0 +1,84 @@
+table
+  width 100%
+  border-collapse collapse
+
+th
+  font-mixin(14px, 700, normal, left)
+  height 45px
+
+icon-table-mixin(width, height, icon_file_name)
+  min-width width
+  max-width width
+  min-height height
+  max-height height
+  background url(icon_file_name) no-repeat center transparent
+  background-size height width
+  padding 0px
+
+/*******************/
+
+th.select-table-action
+  width 40px
+  text-align center
+  cursor initial
+
+th.select-table-action > button
+  icon-table-mixin(26px, 26px, '../assets/icon_checkbox.svg')
+
+th.select-table-action.selected > button
+  icon-table-mixin(26px, 26px, '../assets/icon_checkbox_selected.svg')
+
+/*******************/
+
+th.delete-table-action
+  width 40px
+  text-align center
+  cursor initial
+
+th.delete-table-action.last
+  padding-right 40px
+
+th.delete-table-action > button
+  icon-table-mixin(26px, 26px, '../assets/icon_delete.svg')
+
+th.delete-table-action.inactive > button
+  icon-table-mixin(26px, 26px, '../assets/icon_delete_inactive.svg')
+  cursor default
+
+/*******************/
+
+th.content-cell, td.content-cell
+  max-width 400px;
+  padding-left 10px
+  overflow-wrap break-word;
+  word-wrap break-word;
+
+/*******************/
+
+td.select-row-action
+  width 20px
+  text-align center
+
+td.select-row-action > button
+  icon-table-mixin(26px, 26px, '../assets/icon_checkbox.svg')
+
+td.select-row-action.selected > button
+  icon-table-mixin(26px, 26px, '../assets/icon_checkbox_selected.svg')
+
+tr.active-row td.select-row-action > button
+  icon-table-mixin(26px, 26px, '../assets/icon_checkbox_white.svg')
+
+tr.active-row td.select-row-action.selected > button
+  icon-table-mixin(26px, 26px, '../assets/icon_checkbox_selected_white.svg')
+
+/*******************/
+
+td.edit-row-action
+  width 20px
+  text-align center
+
+td.edit-row-action > button
+  icon-table-mixin(26px, 26px, '../assets/icon_edit.svg')
+
+tr.active-row td.edit-row-action > button
+  icon-table-mixin(26px, 26px, '../assets/icon_edit_white.svg')

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        android:background="@android:color/white">
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            android:id="@+id/event_title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="4dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/primary_dark"
+            android:textStyle="bold"
+            tools:text="LiveOak presentation" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/edetails_dates" />
+            <LiveOakApp.Droid.CustomViews.CustomTextView
+                android:id="@+id/event_time_range"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:textColor="@color/primary_dark"
+                tools:text="March 16 - May 27" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/edetails_location" />
+            <LiveOakApp.Droid.CustomViews.CustomTextView
+                android:id="@+id/event_location"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:textColor="@color/primary_dark"
+                tools:text="Saint-Petersburg" />
+        </LinearLayout>
+        <View
+            android:id="@+id/bot_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/primary_light" />
+    </LinearLayout>
+</merge>

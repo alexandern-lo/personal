@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LiveOakApp.Droid.CustomViews.CustomImageView
+        android:id="@+id/person_item_picture"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/placeholder" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            android:id="@+id/activity_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:ellipsize="marquee"
+            android:background="@android:color/transparent"
+            style="@style/Text.Dark.Medium"
+            android:padding="0dp" />
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            android:id="@+id/activity_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:layout_gravity="top"
+            android:ellipsize="marquee"
+            android:background="@android:color/transparent"
+            style="@style/Text.Gray.XSmall"
+            android:padding="0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            android:id="@+id/activity_action_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            style="@style/Text.Dark.XSmall"
+            android:padding="0dp" />
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            android:id="@+id/activity_action_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="right"
+            style="@style/Text.Gray.XSmall"
+            android:padding="0dp" />
+    </LinearLayout>
+</merge>

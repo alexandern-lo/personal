@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light">
+    <LinearLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:background="@color/secondary_dark">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small" />
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            style="@style/Text.Light.Medium"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:localized_string_id="UpdatingList"
+            app:comment="Updating the list" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/inbox_list_refresher"
+            android:layout_below="@+id/last_update"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:id="@+id/inbox_list" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            android:id="@+id/last_update"
+            style="@style/Text.Dark.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/primary_light" />
+    </RelativeLayout>
+</RelativeLayout>

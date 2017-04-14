@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light">
+    <LiveOakApp.Droid.CustomViews.CustomTextView
+        android:id="@+id/any_event_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:localized_string_id="LeadsAnyEvent"
+        app:comment="Any Event"
+        style="@style/Text.Dark.Medium"
+        android:clickable="true"
+        android:background="@drawable/selector_light"
+        android:padding="8dp" />
+    <LiveOakApp.Droid.CustomViews.CustomTextView
+        android:id="@+id/select_event_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:localized_string_id="MoreEventsTitle"
+        app:comment="More Events"
+        style="@style/Text.Dark.Medium"
+        android:clickable="true"
+        android:background="@drawable/selector_light"
+        android:padding="8dp" />
+</LinearLayout>

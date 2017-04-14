@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Avend.Admin": {
+      "commandName": "Project",
+      "commandLineArgs": "user apps@studiomobile.ru grant_admin cd78c02b-8047-4b28-b447-c62d2f8d5bf9 Yes"
+    }
+  }
+}

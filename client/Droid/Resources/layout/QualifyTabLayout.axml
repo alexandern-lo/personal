@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:background="@color/primary_light"
+    android:clipChildren="false">
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/titles_row_holder"
+        android:layout_above="@+id/state_pager"
+        android:id="@+id/questionnaire_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+    <android.support.v4.view.ViewPager
+        android:layout_alignParentBottom="true"
+        android:id="@+id/state_pager"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <FrameLayout
+        android:id="@+id/titles_row_holder"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:clipChildren="false"
+        android:elevation="4dp">
+        <View
+            android:id="@+id/floating_view"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:background="@drawable/round_white" />
+        <LinearLayout
+            android:id="@+id/titles_row"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="40dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="4dp" />
+    </FrameLayout>
+</RelativeLayout>

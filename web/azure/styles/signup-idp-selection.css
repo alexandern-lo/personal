@@ -1,0 +1,177 @@
+﻿html {
+  background: none;
+}
+
+body {
+  margin: 0;
+  position: static;
+  left: auto;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  background: black url('https://portal.avend.co/azure/images/azure-bg.jpg') repeat;
+}
+
+.intro {
+  position: absolute;
+  top: 10px;
+  left: 83px;
+  width: 250px;
+  text-align: center;
+  color: white;
+}
+
+#base {
+  align-content: center;
+}
+
+/* Adjustments to stock file from designer */
+
+.accountButton {
+  width: 14.667em;
+  height: 2.667em;
+  margin: 0;
+  white-space: nowrap;
+  font-family: 'Arial Regular', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  line-height: normal;
+  border: none;
+  outline: none;
+  color: transparent;
+  background-color: transparent;
+}
+
+.accountButton:hover {
+  border: 0;
+  -moz-box-shadow: 0 0 0;
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+}
+
+#api {
+  position: absolute;
+  left: 50%;
+  margin-left: -161px;
+  width: 322px;
+  height: 640px;
+  overflow: hidden;
+  font-size: 13px;
+  color: #333;
+  text-align: center;
+  line-height: normal;
+  top: 50%;
+  margin-top: -220px;
+}
+
+#api p {
+  display: none;
+}
+
+#api div div div {
+  display: none;
+}
+
+#api ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#api ul li {
+  padding-top: 5px;
+  display: block;
+}
+
+#GoogleExchange {
+  background:
+    url("https://portal.avend.co/azure/idp_buttons/signup_google.png") no-repeat,
+    url("https://portal.avend.co/azure/idp_buttons/signup_google_hover.png") no-repeat -99999px -99999px;
+}
+
+#GoogleExchange:hover {
+  background-image: url("https://portal.avend.co/azure/idp_buttons/signup_google_hover.png");
+}
+
+#FacebookExchange {
+  background:
+    url("https://portal.avend.co/azure/idp_buttons/signup_face.png") no-repeat,
+    url("https://portal.avend.co/azure/idp_buttons/signup_facebook_hover.png") no-repeat -99999px -99999px;
+}
+
+#FacebookExchange:hover {
+  background-image: url("https://portal.avend.co/azure/idp_buttons/signup_facebook_hover.png");
+}
+
+#LinkedInExchange {
+  background:
+    url("https://portal.avend.co/azure/idp_buttons/signup_linkedin.png") no-repeat,
+    url("https://portal.avend.co/azure/idp_buttons/signup_linkedin_hover.png") no-repeat -99999px -99999px;
+}
+
+#LinkedInExchange:hover {
+  background-image: url("https://portal.avend.co/azure/idp_buttons/signup_linkedin_hover.png");
+}
+
+#AmazonExchange {
+  background:
+    url("https://portal.avend.co/azure/idp_buttons/signup_amazon.png") no-repeat,
+    url("https://portal.avend.co/azure/idp_buttons/signup_amazon_hover.png") no-repeat -99999px -99999px;
+}
+
+#AmazonExchange:hover {
+  background-image: url("https://portal.avend.co/azure/idp_buttons/signup_amazon_hover.png");
+}
+
+#MicrosoftAccountExchange {
+  display: none;
+  background:
+    url("https://portal.avend.co/azure/idp_buttons/signup_microsoft.png") no-repeat,
+    url("https://portal.avend.co/azure/idp_buttons/signup_microsoft_hover.png") no-repeat -99999px -99999px;
+}
+
+#MicrosoftAccountExchange:hover {
+  background-image: url("https://portal.avend.co/azure/idp_buttons/signup_microsoft_hover.png");
+}
+
+#SignUpWithLogonEmailExchange {
+  position: relative;
+  top: 320px;
+  color: white;
+  background:
+    url("https://portal.avend.co/azure/images/u19.png") no-repeat,
+    url("https://portal.avend.co/azure/images/u19_mouseOver.png") no-repeat -99999px -99999px;
+}
+
+#SignUpWithLogonEmailExchange:hover {
+  background-image: url("https://portal.avend.co/azure/images/u19_mouseOver.png");
+}
+
+#returnLink {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  font-size: 20px;
+  width: 1300px;
+}
+
+#userDetails {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  width: 1300px;
+  font-family: 'Courier New, Courier, monospace';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  white-space: pre-wrap;
+}
+
+#goToAccountDetails {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+  width: 1300px;
+  font-size: 24px;
+}

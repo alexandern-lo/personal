@@ -1,0 +1,64 @@
+.table th:first-of-type,
+.table td:first-of-type {
+  padding-left: 20px;
+}
+
+th.drag-handle {
+  width: 20px;
+}
+
+.row {
+  vertical-align: super;
+
+  &:nth-child(odd) {
+    background-color: #F3F3F3;
+  }
+}
+
+td.drag-handle {
+  width: 20px;
+  padding-left: 10px;
+  text-align: center;
+  user-select: none;
+  & div {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url(assets/sortable-table/drag_icon.svg) no-repeat center transparent;
+    background-size: 16px 14px;
+  }
+}
+
+body > .row {
+  display: flex;
+  padding-top: 12px;
+  background-color: #559FF8;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  & td {
+    display: flex;
+    &.drag-handle {
+      width: 26px;
+      padding-left: 20px;
+      align-self: flex-start;
+    }
+    &:global(.select-row-action) {
+      width: 42px;
+      align-self: flex-start;
+      justify-content: center;
+    }
+    &:global(.edit-row-action) {
+      width: 42px;
+      align-self: flex-start;
+      justify-content: center;
+    }
+    &:global(.content-cell) {
+      flex: 1;
+      padding-top: 4px;
+      & ol {
+        margin: 0;
+      }
+    }
+  }
+}

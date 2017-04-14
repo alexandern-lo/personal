@@ -1,0 +1,53 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 1000;
+}
+
+.loader {
+  position: relative;
+  display: inline-block;
+  height: 62px;
+  width: 62px;
+  border-radius: 50px;
+  border: 6px solid #FFF;
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -6px;
+  left: -6px;
+  border: 6px solid transparent;
+  border-radius: 50px;
+  border-top-color: #5A9DFF;
+  animation: spin 1s linear infinite;
+}
+
+.message {
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

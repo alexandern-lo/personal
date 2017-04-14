@@ -1,0 +1,79 @@
+@import 'styles/colors.css';
+
+.select {
+  width: 6.44875rem;
+  font-size: 0.58625rem;
+  &,
+  & :global(.Select) {
+    margin-right: 0.41875rem;
+  }
+  & :global(.Select-input),
+  & :global(.Select-control),
+  & :global(.Select-value),
+  & :global(.Select-placeholder) {
+    height: 1.4656rem;
+  }
+  & :global(.Select) {
+    position: relative;
+  }
+  & :global(.Select-control) {
+    position: relative;
+  }
+  & :global(.Select-input) {
+    & input {
+      max-width: 63px;
+      height: 1.4656rem;
+      padding-top: 0;
+    }
+  }
+  & :global(.Select-value),
+  & :global(.Select-placeholder) {
+    display: flex;
+    padding-left: 0.5025rem;
+    padding-right: 1.2rem;
+    align-items: center;
+    margin-top: 0;
+    background: url('assets/icon_dropdown.svg') no-repeat right var(--color-input);
+    background-size: 0.5rem 0.5rem;
+    background-position: right 0.37688rem top 0.56531rem;
+    &,
+    & span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  & :global(.Select-clear-zone) {
+    position: absolute;
+    right: 0.7375rem;
+    top: 0.1375rem;
+    & :global(.Select-clear) {
+      display: inline-block;
+      line-height: 1;
+    }
+  }
+  & :global(.Select-menu-outer) {
+    position: absolute;
+    z-index: 100;
+    border: 1px solid #CCC;
+    background-color: var(--color-input);
+    box-shadow: 0 5px 48px -7px rgba(0, 0, 0, 0.49);
+    & :global(.Select-option) {
+      display: block;
+      padding: 0.08rem 0.5025rem;
+      cursor: pointer;
+      &:global(.is-focused) {
+        background-color: #4A90D9;
+        color: white;
+      }
+    }
+  }
+}
+
+.select :global(.Select-input) input,
+.select :global(.Select-placeholder),
+.select :global(.Select-value) span,
+.select :global(.Select-option) {
+  font-size: 0.58625rem;
+  font-weight: 400;
+}

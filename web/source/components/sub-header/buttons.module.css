@@ -1,0 +1,57 @@
+:root {
+  --button-bg-color: #3F3F3F;
+  --create-bg-color: #559FF8;
+}
+
+.button {
+  height: 100%;
+  margin: 0;
+  padding: 0 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: 10px center;
+  background-color: var(--button-bg-color);
+  &:hover {
+    background-color: color(var(--button-bg-color) tint(20%));
+  }
+  &:active {
+    background-color: color(var(--button-bg-color) shade(20%));
+  }
+}
+
+.with-icon {
+  padding: 0 14px 0 30px;
+}
+
+.wide {
+  padding: 0 30px;
+}
+
+.create {
+  background-color: var(--create-bg-color);
+  &:hover {
+    background-color: color(var(--create-bg-color) tint(20%));
+  }
+  &:active {
+    background-color: color(var(--create-bg-color) shade(20%));
+  }
+  &.with-icon {
+    background-image: url(assets/navbar_icon_plus.svg);
+  }
+}
+
+.export {
+  background-image: url(assets/navbar_icon_export.svg);
+}
+
+.import {
+  background-position: 12px center;
+  background-image: url(assets/icon_export_leads.svg);
+}
+
+.button:disabled {
+  background-color: #A5A5A5;
+}

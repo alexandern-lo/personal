@@ -1,0 +1,55 @@
+@import 'styles/colors.css';
+@import 'styles/sizes.css';
+
+:root {
+  --input-width: 50px;
+  --select-width: calc(var(--input-width) + 16px);
+}
+
+.container {
+  display: inline-flex;
+  height: var(--form-input-height);
+}
+
+.time-input {
+  display: flex;
+  align-items: center;
+  width: var(--input-width);
+  padding: 0 8px;
+  background-color: var(--color-input);
+}
+
+.time-input input {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.blank input,
+.blank select {
+  color: #AEAEAE;
+}
+
+.time-input i {
+  font-style: normal;
+  color: #C5C5C5;
+}
+
+.separator {
+  width: 15px;
+  text-align: center;
+}
+
+.meridiem-select {
+  width: var(--select-width);
+  margin-left: 5px;
+  appearance: none;
+  text-indent: 1rem;
+  font-size: 1rem;
+  background-color: var(--color-input);
+}
+
+.invalid {
+  border-bottom: 2px solid var(--color-input-error);
+}

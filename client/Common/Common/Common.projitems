@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{AEE0A1FC-2DFC-4585-8028-1991180D72E1}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>StudioMobile</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Deprecated\Async\AsyncCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Deprecated\Async\AsyncOperation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Deprecated\Async\TaskExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Validation\AppError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Validation\Check.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Validation\ConversionValidation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Validation\EmptyValidation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Validation\EqualityValidation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Validation\ErrorList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Validation\LengthValidation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Validation\NumberValidation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\DataContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EditableDataContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\Auth\IAuthService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\Auth\ILoginUI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\Auth\LoginRequiredError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\Auth\ParseAuthService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\Auth\ServiceSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\Geo\AddressGeocoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\Geo\Geo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\Geo\LocationManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Graphics\ColorFromString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Graphics\RGB.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Layout\LayoutBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Layout\Padding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Font\CharExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Font\Font.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Font\FontAwesome.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Font\FontIcon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Font\FontIconAppearance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Font\IconGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\RemoteImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TypedEventHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Calendar\DayRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Calendar\WallCalendar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Calendar\DatesRangeRendererExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Reflection\IgnoreAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Reflection\Inspection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Reflection\KeyValueCoding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Reflection\PropertySupport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Reflection\Record.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Reflection\RuntimeEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\String\NamedFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\String\PhoneAsYouTypeFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\String\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Services\MessagingCenter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\NotificationObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\CollectionExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Cleanup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\MultiDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Pool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\TypeMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Calendar\WeekDays.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\Calendar\WeekDaysRederingExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Reflection\EventSubscription.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\BindingList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\LazyIList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ObservableList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\PropertyBindings\BindingExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\CommandBinding\CommandBinding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\CommandBinding\EventSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\PropertyBindings\PropertyBinding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\PropertyBindings\PropertyBindingBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\PropertyBindings\Property.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\PropertyBindings\PropertyBindingStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\PropertyBindings\PropertyConversion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\CommandBinding\CommandBindingBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\IBinding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\PropertyBindings\NotifyPropertyChangedProperties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\API\LoggerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\API\ILoggerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\API\ILogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\API\Marker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\API\MarkerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\API\IMarkerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\API\LoggerFactoryBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\NLog\NLogLoggerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\NLog\NLogLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SL4N\API\LoggerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\ViewBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\LazyView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\WeakCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\WeakReference.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\SafeGCHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\UriExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Deprecated\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Model\Services\" />
+    <Folder Include="$(MSBuildThisFileDirectory)View\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controller\" />
+    <Folder Include="$(MSBuildThisFileDirectory)View\Calendar\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Util\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controller\PropertyBindings\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controller\CommandBinding\" />
+    <Folder Include="$(MSBuildThisFileDirectory)SL4N\API\" />
+    <Folder Include="$(MSBuildThisFileDirectory)SL4N\NLog\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Controller\README.md" />
+    <None Include="$(MSBuildThisFileDirectory)Util\README.md" />
+    <None Include="$(MSBuildThisFileDirectory)Model\Validation\README.md" />
+  </ItemGroup>
+</Project>

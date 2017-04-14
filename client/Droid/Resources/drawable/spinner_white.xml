@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item 
+		android:drawable="@drawable/selector_white_to_light"/>
+	
+	<item android:right="16dp">
+		<bitmap android:src="@drawable/arrow_down"
+				android:gravity="right|center_vertical"/>
+	</item>
+</layer-list>

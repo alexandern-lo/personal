@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="87px" viewBox="0 0 70 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>D04DC205-6536-45A6-9639-FBC1CCDFB10F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="70" height="70" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="System-messages" transform="translate(-1130.000000, -391.000000)">
+            <g id="Group-7-Copy" transform="translate(1042.000000, 391.000000)">
+                <g id="Group-3" transform="translate(88.000000, 0.000000)">
+                    <use id="Oval-3" stroke="#FA4A4B" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+                    <polygon id="Shape" fill="#FA4A4B" points="49 24.625 46.375 22 35 33.375 23.625 22 21 24.625 32.375 36 21 47.375 23.625 50 35 38.625 46.375 50 49 47.375 37.625 36"></polygon>
+                    <polyline id="Path-2" stroke="#FA4A4B" stroke-width="3" points="35.5021973 67.996582 35.5021973 82.515564 0 82.5189819 70 82.5128174"></polyline>
+                    <rect id="Rectangle-2" fill="#FA4A4B" x="26" y="78" width="19" height="9"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

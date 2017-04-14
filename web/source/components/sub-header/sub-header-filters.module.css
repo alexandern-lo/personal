@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  height: 40px;
+  min-height: 40px;
+  min-width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #CDCCCC;
+}
+
+.search {
+  height: 24px;
+  margin-right: 7px;
+  padding: 0 7px 0 25px;
+  background: #FBFBFB url(assets/icon_search_black.svg) no-repeat;
+  background-position: 7px center;
+  background-size: 12px;
+}
+
+.filter-group {
+  display: flex;
+  width: 100%;
+  padding-left: 1.1725rem;
+  padding-top: 0.5234375rem;
+  padding-bottom: 0.5234375rem;
+}
+
+.select {
+  width: 6.44875rem;
+  font-size: 0.58625rem;
+  &,
+  & :global(.Select) {
+    margin-right: 0.41875rem;
+  }
+  & :global(.Select-control),
+  & :global(.Select-value),
+  & :global(.Select-placeholder) {
+    height: 1.4656rem;
+  }
+}

@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+  height: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  align-items: center;
+  border-bottom: 1px solid #EDEDED;
+  & span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.active {
+  background-color: #5A9DFF;
+  color: #2E343E;
+}
+
+.selected {
+  background-image: url(../resources/icon_check_mark.svg);
+}
+
+.user {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 15px 10px;
+  padding-left: 25px;
+  margin-left: 5px;
+}
+
+.table-wrapper {
+  box-sizing: border-box;
+  width: 480px;
+  padding: 8px;
+}

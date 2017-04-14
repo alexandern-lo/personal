@@ -1,0 +1,57 @@
+@import 'styles/colors.css';
+
+.settings-panel {
+  height: 100%;
+  font-size: 16px;
+}
+
+.section {
+  padding-left: 20px;
+  padding-top: 20px;
+  &:first-of-type {
+    margin-bottom: 64px;
+  }
+}
+
+.title {
+  display: flex;
+  height: 60px;
+  padding-left: 20px;
+  align-items: center;
+  border-bottom: 1px solid #D8D8D8;
+  font-size: 18px;
+}
+
+.data {
+  padding-left: 30px;
+  padding-top: 24px;
+  & td {
+    vertical-align: text-top;
+  }
+  & tr td:first-of-type {
+    width: 120px;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+  & tr:not(:first-of-type) td {
+    padding-top: 20px;
+  }
+  & tr.exp > td {
+    padding-top: 10px;
+  }
+}
+
+.button {
+  height: 32px;
+  margin-top: 30px;
+  padding: 0 14px;
+  color: white;
+  background-color: var(--color-button-create);
+  &:hover {
+    background-color: color(var(--color-button-create) tint(20%));
+  }
+  &:active {
+    background-color: color(var(--color-button-create) shade(20%));
+  }
+}

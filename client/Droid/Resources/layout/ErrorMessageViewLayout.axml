@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LiveOakApp.Droid.CustomViews.CustomTextView
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text.Dark.Medium"
+        android:layout_gravity="center"
+        app:custom_font="OpenSans-Regular" />
+    <LiveOakApp.Droid.CustomViews.CustomButton
+        android:id="@+id/action_button"
+        style="@style/Button.Blue.Rounded"
+        android:layout_marginTop="2dp"
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:localized_string_id="TryAgain"
+        app:comment="Try againg"
+        app:custom_font="OpenSans-Regular"
+        android:visibility="gone" />
+</merge>

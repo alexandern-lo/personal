@@ -1,0 +1,19 @@
+.title {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.title span {
+  color: #5A9DFF;
+}
+
+.step-hint {
+  font-size: 16px;
+  color: #CDCCCC;
+}
+
+.table-wrapper {
+  position: relative;
+  padding: 32px 24px 32px 0;
+}

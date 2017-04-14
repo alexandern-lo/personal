@@ -1,0 +1,34 @@
+.panel {
+  display: flex;
+  min-height: 40px;
+  padding: 0 10px;
+  align-items: center;
+  background-color: #FA4A4B;
+  color: white;
+}
+
+.panel i {
+  font-size: 20px;
+}
+
+.message {
+  flex-grow: 1;
+  margin: 0 0 0 10px;
+  & span {
+    &::after {
+      content: ', ';
+    }
+    &:last-of-type::after {
+      content: '';
+    }
+  }
+}
+
+.close button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  & i {
+    font-size: 16px;
+  }
+}

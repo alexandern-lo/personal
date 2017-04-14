@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/menuProfile">
+        <LinearLayout
+            android:id="@+id/item_lists_containers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LiveOakApp.Droid.CustomViews.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:paddingLeft="12dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/primary_blue"
+                custom:localized_string_id="ApplicationTitle"
+                custom:comment="Avend"
+                custom:custom_font="OpenSans-ExtraBold" />
+            <LinearLayout
+                android:id="@+id/main_menu_dashboard_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Button.Menu">
+                <ImageView
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"
+                    android:id="@+id/main_menu_dashboard_icon"
+                    android:src="@drawable/menu_dash" />
+                <LiveOakApp.Droid.CustomViews.CustomTextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/main_menu_dashboard_text"
+                    android:layout_marginLeft="15dp"
+                    style="@style/Text"
+                    custom:localized_string_id="MenuDashboard"
+                    custom:comment="Dashboard"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="60dp"
+                android:background="@color/secondary_transparent_gray" />
+            <LinearLayout
+                android:id="@+id/main_menu_leads_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Button.Menu">
+                <ImageView
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"
+                    android:id="@+id/main_menu_leads_icon"
+                    android:src="@drawable/menu_leads" />
+                <LiveOakApp.Droid.CustomViews.CustomTextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/main_menu_leads_text"
+                    android:layout_marginLeft="15dp"
+                    style="@style/Text"
+                    custom:localized_string_id="MenuLeads"
+                    custom:comment="Leads"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="60dp"
+                android:background="@color/secondary_transparent_gray" />
+            <LinearLayout
+                android:id="@+id/main_menu_events_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Button.Menu">
+                <ImageView
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"
+                    android:id="@+id/main_menu_events_icon"
+                    android:src="@drawable/menu_events" />
+                <LiveOakApp.Droid.CustomViews.CustomTextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/main_menu_events_text"
+                    android:layout_marginLeft="15dp"
+                    style="@style/Text"
+                    custom:localized_string_id="MenuEvents"
+                    custom:comment="Events"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="60dp"
+                android:background="@color/secondary_transparent_gray" />
+            <LinearLayout
+                android:id="@+id/main_menu_recent_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Button.Menu">
+                <ImageView
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"
+                    android:id="@+id/main_menu_recent_icon"
+                    android:src="@drawable/menu_recentactivity" />
+                <LiveOakApp.Droid.CustomViews.CustomTextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/main_menu_recent_text"
+                    android:layout_marginLeft="15dp"
+                    style="@style/Text"
+                    custom:localized_string_id="MenuRecentActivity"
+                    custom:comment="Recent Activity"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/primary_transparent_gray" />
+            <!-- 
+			<RelativeLayout
+                android:id="@+id/main_menu_inbox_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Button.Menu">
+                <ImageView
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/main_menu_inbox_icon"
+                    android:src="@drawable/menu_inbox" />
+                <LiveOakApp.Droid.CustomViews.CustomTextView
+                    android:id="@+id/main_menu_inbox_text"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@android:color/white"
+                    style="@style/Text"
+                    custom:localized_string_id="MenuInbox"
+                    custom:comment="Inbox"
+                    android:layout_toRightOf="@id/main_menu_inbox_icon"
+                    android:layout_centerVertical="true"
+                    tools:text="Inbox" />
+                <LiveOakApp.Droid.CustomViews.CustomTextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/main_menu_inbox_count"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    tools:text="3" />
+            </RelativeLayout>
+			-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="60dp"
+                android:background="@color/secondary_transparent_gray" />
+            <LinearLayout
+                android:id="@+id/main_menu_my_resources_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Button.Menu">
+                <ImageView
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"
+                    android:id="@+id/main_menu_my_resources_icon"
+                    android:src="@drawable/menu_resources" />
+                <LiveOakApp.Droid.CustomViews.CustomTextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/main_menu_my_resources_text"
+                    android:layout_marginLeft="15dp"
+                    style="@style/Text"
+                    custom:localized_string_id="MenuMyResources"
+                    custom:comment="My resources"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/primary_transparent_gray" />
+            <LinearLayout
+                android:id="@+id/main_menu_support_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Button.Menu">
+                <ImageView
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"
+                    android:id="@+id/main_menu_support_icon"
+                    android:src="@drawable/menu_support" />
+                <LiveOakApp.Droid.CustomViews.CustomTextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/main_menu_support_text"
+                    android:layout_marginLeft="15dp"
+                    style="@style/Text"
+                    custom:localized_string_id="MenuSupport"
+                    custom:comment="Support"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <fragment
+        android:name="LiveOakApp.Droid.Controller.MenuProfileFragment"
+        android:id="@+id/menuProfile"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#2e343e"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+</merge>

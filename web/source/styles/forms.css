@@ -1,0 +1,16 @@
+@import './sizes.css';
+@import './colors.css';
+
+:root {
+  --form-input-font: {
+    font-size: var(--form-input-font-size);
+    font-weight: var(--form-input-font-weight);
+  }
+  --form-input: {
+    width: 100%;
+    height: var(--form-input-height);
+    padding-left: 10px;
+    background-color: var(--color-input);
+    @apply --form-input-font;
+  }
+}

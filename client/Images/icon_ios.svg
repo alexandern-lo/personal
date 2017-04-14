@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <rect x="0" y="0" width="1024" height="1024" style="fill:white;"/>
+    <path d="M235.32,603.072L527.428,603.072L553.291,671.205C392.885,743.978 220.358,717.75 205.878,715.371C205.336,715.276 204.973,714.761 205.065,714.219C211.982,673.28 222.279,636.361 235.32,603.072ZM544.257,331.158C679.521,291.168 805.333,303.614 818.065,305.018C818.339,305.051 818.587,305.196 818.751,305.418C818.914,305.641 818.979,305.921 818.928,306.193C791.771,453.312 727.684,549.309 650.677,611.519L544.257,331.158ZM484.828,490.842L298.665,490.842C339.216,438.808 388.419,400.858 440.201,373.273L484.828,490.842Z" style="fill:url(#_Linear1);"/>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(613.895,-419.807,419.582,614.224,205.05,721.902)"><stop offset="0%" style="stop-color:rgb(46,52,62);stop-opacity:1"/><stop offset="100%" style="stop-color:rgb(90,157,255);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

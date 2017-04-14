@@ -1,0 +1,45 @@
+.import-button-container {
+  height: 100%;
+}
+
+.file-field {
+  display: flex;
+}
+
+.file-field input {
+  flex-grow: 1;
+  background-color: #F4F5F6;
+}
+
+.invisible {
+  display: none;
+}
+
+.upload-button {
+  height: 25px;
+  padding: 0 10px;
+  background-color: #5A9DFF;
+  color: #FFF;
+}
+
+.help {
+  font-size: 14px;
+  color: #9A9A9A;
+}
+
+.example {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 12px;
+  & span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background: url('assets/attendees/excel.svg') no-repeat center;
+  }
+  & a {
+    color: #5A9DFF;
+  }
+}

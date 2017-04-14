@@ -1,0 +1,45 @@
+.table-container {
+  padding: 14px;
+}
+
+.table {
+  width: 100%;
+}
+
+.row > td {
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
+.label {
+  width: 60px;
+  padding-right: 10px;
+  text-align: right;
+  word-break: break-all;
+  color: #808080;
+}
+
+.group-row .label {
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.group-row:first-child .label {
+  padding-top: 0;
+}
+
+.row a {
+  word-break: break-all;
+}
+
+.image-container img {
+  max-width: 140px;
+  max-height: 140px;
+}
+
+.image-placeholder {
+  width: 140px;
+  height: 140px;
+  background: url(assets/placeholders/file-upload-placeholder.svg) no-repeat center;
+  background-size: cover;
+}

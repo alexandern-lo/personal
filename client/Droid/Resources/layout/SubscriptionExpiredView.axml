@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp">
+            <LiveOakApp.Droid.CustomViews.CustomButton
+                android:id="@+id/logout_button"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                custom:localized_string_id="SubscriptionExpiredLogout"
+                custom:comment="Logout"
+                custom:custom_font="OpenSans-Bold"
+                style="@style/Button.Dark.Rounded" />
+            <LiveOakApp.Droid.CustomViews.CustomButton
+                android:id="@+id/recheck_button"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                custom:localized_string_id="SubscriptionExpiredRecheck"
+                custom:comment="Recheck again"
+                custom:custom_font="OpenSans-Bold"
+                style="@style/Button.Blue.Rounded" />
+        </LinearLayout>
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            android:id="@+id/message_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            custom:localized_string_id="SubscriptionExpiredLabel"
+            custom:comment="Subscription Expired"
+            custom:custom_font="OpenSans-Bold"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/secondary_light"
+            android:textSize="@dimen/text_xxlarge" />
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/recheck_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical|center_horizontal"
+        style="@android:style/Widget.ProgressBar.Large" />
+</merge>

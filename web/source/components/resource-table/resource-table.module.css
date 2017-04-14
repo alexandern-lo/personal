@@ -1,0 +1,51 @@
+.table th {
+  white-space: nowrap;
+}
+
+.table td {
+  height: 45px;
+}
+
+.table th:first-of-type,
+.table td:first-of-type {
+  padding-left: 20px;
+}
+
+.header-sortable {
+  cursor: pointer;
+}
+
+.header-sort::after {
+  content: ' ';
+  display: inline-block;
+  width: 10px;
+  height: 8px;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  background: url('assets/icon_dropdown_blue.svg') no-repeat;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-sort-desc::after {
+  transform: scale3d(1, -1, 1);
+}
+
+.content-cell {
+  padding-right: 10px;
+}
+
+.date-cell {
+  white-space: nowrap;
+}
+
+.row:nth-child(odd) {
+  background-color: #F3F3F3;
+}
+
+.row.active {
+  background-color: #559FF8;
+  color: white;
+  & a {
+    color: white;
+  }
+}

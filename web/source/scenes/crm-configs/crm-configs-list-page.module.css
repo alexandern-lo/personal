@@ -1,0 +1,19 @@
+:root {
+  --main-color: #5A9DFF;
+}
+
+.set-default-button {
+  margin-right: 16px;
+  background: none;
+  color: var(--main-color);
+  &:disabled {
+    color: #CDCCCC;
+  }
+}
+
+.authorize-button {
+  padding: 4px 8px;
+  font-size: 12px;
+  background-color: var(--main-color);
+  color: white;
+}

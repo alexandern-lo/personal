@@ -1,0 +1,82 @@
+:root {
+  --border-color: #CDCCCC;
+  --header-height: 30px;
+  --header-button: {
+    width: 30px;
+    min-width: 30px;
+    height: var(--header-height);
+    min-height: var(--header-height);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  max-width: 335px;
+  min-height: 100%;
+  font-size: 10px;
+}
+
+.top {
+  display: flex;
+  height: var(--header-height);
+  min-height: var(--header-height);
+  background-color: white;
+}
+
+.close-button {
+  @apply --header-button;
+
+  box-sizing: border-box;
+  border-left: solid 1px var(--border-color);
+  border-bottom: solid 1px var(--border-color);
+  background: url('assets/preview_icon_close.svg') no-repeat center;
+  background-size: 14px auto;
+  text-indent: -100000px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: var(--header-height);
+  min-height: var(--header-height);
+  margin-left: 14px;
+  padding-right: 7px;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: solid 1px var(--border-color);
+}
+
+.title {
+  flex-grow: 1;
+  font-weight: 600;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 29px;
+  flex-grow: 1;
+  border-left: solid 1px var(--border-color);
+  border-bottom: solid 1px var(--border-color);
+  background-color: white;
+}
+
+.header button {
+  @apply --header-button;
+
+  text-indent: -100000px;
+  background-size: 18px auto;
+}
+
+.edit-button {
+  background: url('assets/icon_edit.svg') no-repeat center;
+}
+
+.content-actions {
+  flex-grow: 1;
+  margin: 14px;
+}

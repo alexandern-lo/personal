@@ -1,0 +1,6 @@
+@import 'styles/forms.css';
+
+.input {
+  display: inline-block;
+  @apply --form-input;
+}

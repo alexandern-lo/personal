@@ -1,0 +1,20 @@
+.root-container {
+  box-sizing: border-box;
+  padding: 20% 13% 0 5%;
+  height: 100%;
+}
+
+.recurly-logo {
+  width: 218px;
+  height: 67px;
+  background-image: url(../resources/recurly-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.description {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #666767;
+}

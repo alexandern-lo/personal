@@ -1,0 +1,25 @@
+.panel {
+  display: flex;
+  min-height: 40px;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.red {
+  background-color: #FA4A4B;
+}
+
+.blue {
+  background-color: #186AC2;
+}
+
+.close button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  & i {
+    font-size: 16px;
+  }
+}

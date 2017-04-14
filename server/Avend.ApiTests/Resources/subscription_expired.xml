@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expired_subscription_notification>
+  <account>
+    <account_code>d25e1ba1-48ae-4a3d-a1a2-d61f84d2e895</account_code>
+    <username nil="true"></username>
+    <email>konstantin@karyaev.com</email>
+    <first_name>undefined</first_name>
+    <last_name>undefined</last_name>
+    <company_name nil="true"></company_name>
+    <phone nil="true"></phone>
+  </account>
+  <subscription>
+    <plan>
+      <plan_code>recurly_corporate_monthly_1000</plan_code>
+      <name>Corporate 1000 seats (returns to localhost)</name>
+    </plan>
+    <uuid>3b20fdd8e32cc0409e287c4864aa6954</uuid>
+    <state>expired</state>
+    <quantity type="integer">1</quantity>
+    <total_amount_in_cents type="integer">100000</total_amount_in_cents>
+    <subscription_add_ons type="array"/>
+    <activated_at type="datetime">2017-01-13T23:29:07Z</activated_at>
+    <canceled_at type="datetime">2017-02-22T18:06:20Z</canceled_at>
+    <expires_at type="datetime">2017-02-22T18:00:00Z</expires_at>
+    <current_period_started_at type="datetime">2017-01-22T18:00:00Z</current_period_started_at>
+    <current_period_ends_at type="datetime">2017-02-22T18:00:00Z</current_period_ends_at>
+    <trial_started_at type="datetime" nil="true"></trial_started_at>
+    <trial_ends_at type="datetime" nil="true"></trial_ends_at>
+  </subscription>
+</expired_subscription_notification>

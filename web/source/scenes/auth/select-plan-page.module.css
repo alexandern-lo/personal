@@ -1,0 +1,21 @@
+.header {
+  margin: 32px;
+  font-size: 48px;
+  line-height: 1.33;
+  color: white;
+}
+
+.plans-container {
+  display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  & > div {
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+  &.with-trial > div:nth-child(2) {
+    margin-top: -30px;
+    align-self: flex-start;
+  }
+}

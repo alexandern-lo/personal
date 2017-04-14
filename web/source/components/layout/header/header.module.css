@@ -1,0 +1,115 @@
+@import '../layout.config.css';
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #030404;
+}
+
+.header > div:last-of-type {
+  flex-grow: 1;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  width: var(--sidebar-width);
+  min-width: var(--sidebar-width);
+  padding: 0 10px;
+  box-sizing: border-box;
+  & button {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    text-indent: -10000px;
+    background: url('assets/icon_hamburger.svg') no-repeat;
+  }
+  & a {
+    margin-top: -5px;
+    margin-left: 3px;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #559FF8;
+  }
+}
+
+.separator {
+  width: 1px;
+  min-width: 1px;
+  height: 30px;
+  background: #4D4E4E;
+}
+
+.search input {
+  height: 30px;
+  width: 400px;
+  padding-left: 30px;
+  font-size: 1rem;
+  color: white;
+  background: #666767 url(assets/icon_search_white.svg) no-repeat;
+  background-position: 8px center;
+  background-size: 15px 15px;
+}
+
+.button {
+  height: 100%;
+  background: transparent no-repeat center;
+  background-size: 20px 20px;
+  & button {
+    width: 45px;
+    height: 100%;
+    text-indent: -100000px;
+    background: transparent;
+  }
+}
+
+.button.notifications {
+  background-image: url(assets/topbar_icon_bell.svg);
+}
+
+.button.settings {
+  background-image: url(assets/topbar_icon_gear.svg);
+}
+
+.button.help {
+  background-image: url(assets/topbar_icon_question.svg);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-right: 54px;
+  background: #F4F5F6 url(assets/lead_picture_placeholder.svg) no-repeat right;
+  background-size: 54px 54px;
+  & > ul {
+    height: 100%;
+    margin: 0;
+    padding: 6px 12px 0 10px;
+    box-sizing: border-box;
+    text-align: right;
+    background: black;
+    & > li {
+      padding: 1px;
+      list-style: none;
+      white-space: nowrap;
+      &.profile-name {
+        font-size: 14px;
+        color: white;
+      }
+      &.profile-role {
+        font-size: 12px;
+        color: #7F7F7F;
+      }
+    }
+  }
+}
+
+.profile-menu {
+  right: 0;
+  & button {
+    font-weight: 600;
+  }
+}

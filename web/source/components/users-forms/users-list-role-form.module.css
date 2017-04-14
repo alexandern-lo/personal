@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-content: center;
+  & button {
+    width: 16px;
+  }
+}
+
+.user {
+  background: url('assets/users-forms/user.svg') no-repeat center;
+}
+
+.admin {
+  background: url('assets/users-forms/admin.svg') no-repeat center;
+}

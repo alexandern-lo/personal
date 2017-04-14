@@ -1,0 +1,82 @@
+.spinner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 16px 20px;
+}
+
+.root-container table {
+  width: 100%;
+  box-sizing: border-box;
+  table-layout: fixed;
+}
+
+.root-container td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 15px;
+  color: #333;
+}
+
+.root-container td > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.root-container td > div:last-of-type {
+  margin-top: 3px;
+  font-size: 15px;
+  color: #989898;
+}
+
+.header {
+  height: 15%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.root-container table tr {
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.root-container td.leads-info-cell {
+  background: url(../resources/icon_user.svg) no-repeat left;
+  background-size: 37px;
+  padding-left: 45px;
+}
+
+.leads-info-cell {
+  width: 65%;
+  padding-right: 10px;
+}
+
+.leads-activity-cell {
+  width: 35%;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  margin-top: 5px;
+  width: 100%;
+  height: 10%;
+  font-size: 15px;
+}
+
+.footer span:first-of-type {
+  cursor: pointer;
+  padding-bottom: 5px;
+  margin-right: 16px;
+  border-bottom: 3px solid #4B4B4B;
+  font-size: 20px;
+}

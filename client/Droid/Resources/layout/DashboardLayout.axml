@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/dashboard_gray">
+	<LinearLayout
+		android:id="@+id/progressBar"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:visibility="invisible"
+		android:layout_alignParentTop="true"
+		android:background="@color/secondary_dark">
+		<ProgressBar
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="@android:style/Widget.ProgressBar.Small" />
+		<LiveOakApp.Droid.CustomViews.CustomTextView
+			style="@style/Text.Light.Medium"
+			android:layout_marginLeft="8dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:localized_string_id="UpdatingList"
+			app:comment="Updating the list" />
+	</LinearLayout>
+	<android.support.v4.widget.SwipeRefreshLayout
+		android:id="@+id/dashboard_refresher"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentTop="true"
+		android:layout_marginBottom="60dp">
+		<ScrollView
+			android:id="@+id/content_view"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scrollbars="vertical">
+			<FrameLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent">
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+					<!-- Leads -->
+					<RelativeLayout
+						android:id="@+id/leads_stats_holder"
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:layout_marginBottom="16dp"
+						android:paddingRight="22.5dp"
+						android:paddingLeft="22.5dp"
+						android:paddingBottom="20dp"
+						android:paddingTop="20dp"
+						android:background="@color/primary_white">
+						<FrameLayout
+							android:layout_width="170dp"
+							android:layout_height="170dp"
+							android:layout_alignParentTop="true"
+							android:layout_alignParentRight="true">
+							<com.github.mikephil.charting.charts.PieChart
+								android:id="@+id/leads_chart"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_gravity="center" />
+							<LinearLayout
+								android:orientation="horizontal"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_gravity="center"
+								android:gravity="center">
+								<TextView
+									android:id="@+id/leads_for_period_percent"
+									android:layout_width="0dp"
+									android:layout_height="match_parent"
+									android:layout_weight="1"
+									style="@style/Text.Dark.Medium" />
+								<View
+									android:layout_height="25dp"
+									android:layout_width="2dp"
+									android:background="#D8D8D8" />
+								<TextView
+									android:id="@+id/leads_goal_percent"
+									android:layout_width="0dp"
+									android:layout_height="match_parent"
+									android:layout_weight="1"
+									style="@style/Text.Dark.Medium" />
+							</LinearLayout>
+						</FrameLayout>
+						<LiveOakApp.Droid.CustomViews.CustomTextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_centerHorizontal="true"
+							android:layout_alignParentTop="true"
+							style="@style/Text.Dark"
+							android:textSize="12sp"
+							app:custom_font="OpenSans-Semibold"
+							app:localized_string_id="LeadsNavigationBarTitle"
+							app:comment="Leads" />
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentLeft="true"
+							android:layout_centerVertical="true">
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								style="@style/Text.Gray"
+								android:textSize="12sp"
+								android:paddingBottom="0dp"
+								app:custom_font="OpenSans-Regular"
+								app:localized_string_id="Leads30Days"
+								app:comment="Leads (30 days)" />
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:id="@+id/leads_number"
+								style="@style/Text.Dark"
+								android:textSize="62.5sp"
+								app:cropFontPaddings="true"
+								app:custom_font="OpenSans-Regular"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content" />
+							<LinearLayout
+								android:orientation="horizontal"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content">
+								<LiveOakApp.Droid.CustomViews.CustomTextView
+									android:id="@+id/leads_total_number"
+									style="@style/Text.Dark"
+									android:paddingTop="0dp"
+									android:textSize="12sp"
+									app:custom_font="OpenSans-Semibold"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content" />
+								<LiveOakApp.Droid.CustomViews.CustomTextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:paddingTop="0dp"
+									style="@style/Text.Dark"
+									android:textSize="12sp"
+									app:custom_font="OpenSans-Regular"
+									app:localized_string_id="AllTime"
+									app:comment="all time" />
+							</LinearLayout>
+						</LinearLayout>
+						<LiveOakApp.Droid.CustomViews.CustomTextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_alignParentRight="true"
+							style="@style/Text.Dark"
+							android:textSize="12sp"
+							app:custom_font="OpenSans-Regular"
+							app:localized_string_id="Goals"
+							app:comment="Goals" />
+					</RelativeLayout>
+					<!-- Events with 'Leads taken' -->
+					<LinearLayout
+						android:id="@+id/leads_taken_holder"
+						android:orientation="vertical"
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:layout_marginBottom="16dp"
+						android:paddingLeft="12dp"
+						android:paddingRight="12dp"
+						android:background="@color/primary_white"
+						android:visibility="gone">
+						<FrameLayout
+							android:layout_height="40dp"
+							android:layout_width="match_parent"
+							android:gravity="center_vertical">
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								style="@style/Text.Gray"
+								android:textSize="12sp"
+								android:layout_gravity="left"
+								android:gravity="center_vertical"
+								app:custom_font="OpenSans-Regular"
+								app:localized_string_id="Events"
+								app:comment="Events" />
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								android:layout_gravity="right"
+								style="@style/Text.Gray"
+								android:textSize="12sp"
+								android:gravity="center_vertical"
+								app:custom_font="OpenSans-Regular"
+								app:localized_string_id="LeadsTaken"
+								app:comment="Leads taken" />
+						</FrameLayout>
+						<LiveOakApp.Droid.CustomViews.ExpandedListView
+							android:id="@+id/leads_taken_list"
+							android:layout_height="wrap_content"
+							android:layout_width="match_parent" />
+					</LinearLayout>
+					<!-- Resources -->
+					<LinearLayout
+						android:id="@+id/resources_holder"
+						android:orientation="vertical"
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:layout_marginBottom="16dp"
+						android:background="@color/primary_white"
+						android:paddingLeft="12dp"
+						android:paddingRight="12dp"
+						android:visibility="gone">
+						<FrameLayout
+							android:layout_height="40dp"
+							android:layout_width="match_parent"
+							android:gravity="center_vertical">
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								android:layout_gravity="left"
+								style="@style/Text.Gray"
+								android:gravity="center_vertical"
+								android:textSize="12sp"
+								app:custom_font="OpenSans-Regular"
+								app:localized_string_id="ResourceConversions"
+								app:comment="Resources conversion" />
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								android:layout_gravity="right"
+								style="@style/Text.Gray"
+								android:textSize="12sp"
+								android:gravity="center_vertical"
+								app:custom_font="OpenSans-Regular"
+								app:localized_string_id="Sent/Opened"
+								app:comment="Sent / Opened" />
+						</FrameLayout>
+						<LiveOakApp.Droid.CustomViews.ExpandedListView
+							android:id="@+id/resources_list"
+							android:layout_height="wrap_content"
+							android:layout_width="match_parent" />
+					</LinearLayout>
+					<!-- Events with 'Cost per lead' -->
+					<LinearLayout
+						android:id="@+id/cost_per_lead_holder"
+						android:orientation="vertical"
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:layout_marginBottom="16dp"
+						android:background="@color/primary_white"
+						android:paddingLeft="12dp"
+						android:paddingRight="12dp"
+						android:visibility="gone">
+						<FrameLayout
+							android:layout_height="40dp"
+							android:layout_width="match_parent"
+							android:gravity="center_vertical">
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								android:layout_gravity="left"
+								style="@style/Text.Gray"
+								android:textSize="12sp"
+								android:gravity="center_vertical"
+								app:custom_font="OpenSans-Regular"
+								app:localized_string_id="Events"
+								app:comment="Events" />
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								android:layout_gravity="right"
+								style="@style/Text.Gray"
+								android:gravity="center_vertical"
+								android:textSize="12sp"
+								app:custom_font="OpenSans-Regular"
+								app:localized_string_id="CostPerLead"
+								app:comment="Cost per lead" />
+						</FrameLayout>
+						<LiveOakApp.Droid.CustomViews.ExpandedListView
+							android:id="@+id/cost_per_lead_list"
+							android:layout_height="wrap_content"
+							android:layout_width="match_parent" />
+					</LinearLayout>
+					<!-- Expenses -->
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:background="@color/primary_white"
+						android:gravity="center_vertical"
+						android:paddingTop="6dp"
+						android:paddingLeft="12dp"
+						android:paddingRight="12dp"
+						android:paddingBottom="12dp">
+						<FrameLayout
+							android:id="@+id/yearly_expenses_holder"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_toLeftOf="@+id/add_expense_button"
+							android:layout_alignParentLeft="true"
+							android:layout_marginTop="6dp"
+							android:paddingRight="4dp">
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								style="@style/Text.Dark"
+								android:textSize="12sp"
+								android:padding="0dp"
+								android:layout_gravity="left"
+								app:custom_font="OpenSans-Regular"
+								app:localized_string_id="YearlyExpensesToDate"
+								app:comment="Yearly expense to date" />
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:id="@+id/yearly_expenses"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="0dp"
+								android:layout_gravity="right"
+								style="@style/Text.Dark"
+								android:textSize="12sp"
+								app:custom_font="OpenSans-Semibold" />
+						</FrameLayout>
+						<FrameLayout
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_below="@id/yearly_expenses_holder"
+							android:layout_toLeftOf="@+id/add_expense_button"
+							android:layout_alignParentLeft="true"
+							android:paddingRight="4dp">
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								android:padding="0dp"
+								android:paddingTop="4dp"
+								android:layout_gravity="left"
+								app:localized_string_id="AverageCostPerLead"
+								app:comment="Average cost per lead"
+								style="@style/Text.Dark"
+								android:textSize="12sp"
+								app:custom_font="OpenSans-Regular" />
+							<LiveOakApp.Droid.CustomViews.CustomTextView
+								android:id="@+id/average_lead_cost"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_gravity="right"
+								android:padding="0dp"
+								style="@style/Text.Dark"
+								android:textSize="12sp"
+								app:custom_font="OpenSans-Semibold" />
+						</FrameLayout>
+						<LiveOakApp.Droid.CustomViews.CustomButton
+							android:id="@+id/add_expense_button"
+							android:layout_width="130dp"
+							android:layout_height="35dp"
+							android:layout_marginTop="6dp"
+							android:layout_gravity="center_vertical|right"
+							app:localized_string_id="AddExpense"
+							app:comment="+Add expense"
+							android:layout_alignParentRight="true"
+							android:layout_alignParentTop="true"
+							android:layout_alignParentBottom="true"
+							style="@style/Button.Blue.Rounded"
+							app:custom_font="OpenSans-Semibold"
+							android:textSize="14sp" />
+					</RelativeLayout>
+				</LinearLayout>
+				<LiveOakApp.Droid.Views.ErrorMessageView
+					android:id="@+id/error_view"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="12dp"
+					android:layout_marginRight="12dp"
+					android:layout_gravity="center"
+					android:background="@color/primary_light"
+					android:visibility="invisible" />
+			</FrameLayout>
+		</ScrollView>
+	</android.support.v4.widget.SwipeRefreshLayout>
+	<!-- Bottom navigation tabs -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_height="60dp"
+		android:layout_width="match_parent"
+		android:layout_alignParentBottom="true">
+		<ImageButton
+			android:id="@+id/leads_tab"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="@color/primary_dark"
+			android:src="@drawable/menu_leads" />
+		<ImageButton
+			android:id="@+id/events_tab"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="@color/primary_dark"
+			android:src="@drawable/menu_events" />
+		<ImageButton
+			android:id="@+id/recent_activity_tab"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="@color/primary_dark"
+			android:src="@drawable/menu_recentactivity" />
+		<ImageButton
+			android:id="@+id/resources_tab"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="@color/primary_dark"
+			android:src="@drawable/menu_resources" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+@import './layout.config.css';
+
+.header {
+  position: fixed;
+  height: var(--header-height);
+  width: 100%;
+  z-index: 50;
+}
+
+.page-container {
+  position: relative;
+  height: 100%;
+  height: calc(100% - var(--header-height));
+  padding-top: var(--header-height);
+}
+
+.sidebar {
+  float: left;
+}
+
+.content-container {
+  position: relative;
+  height: 100%;
+  overflow-x: auto;
+}

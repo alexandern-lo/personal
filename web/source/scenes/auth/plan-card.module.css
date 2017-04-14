@@ -1,0 +1,59 @@
+:root {
+  --highlight-color: #5A9DFF;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  padding: 32px;
+  background: white;
+}
+
+.header {
+  margin-bottom: 8px;
+  text-align: center;
+  & h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  & span {
+    line-height: 1.5;
+  }
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--highlight-color);
+  & sup {
+    font-size: 40px;
+    line-height: 1.9;
+  }
+  & span {
+    font-size: 72px;
+    line-height: 1.33;
+  }
+}
+
+.description {
+  flex-grow: 1;
+  text-align: center;
+  line-height: 1.5;
+  color: #9A9A9A;
+}
+
+.action button {
+  margin-top: 48px;
+  width: 100%;
+  padding: 12px 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  background-color: var(--highlight-color);
+}

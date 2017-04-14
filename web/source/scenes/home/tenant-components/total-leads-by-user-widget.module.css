@@ -1,0 +1,113 @@
+.spinner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner {
+  z-index: 45;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 16px 20px;
+}
+
+.root-container table {
+  width: 100%;
+  box-sizing: border-box;
+  table-layout: fixed;
+}
+
+.header {
+  height: 15%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.root-container table tr,
+.header {
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.header select {
+  -webkit-appearance: none;
+  background-color: white;
+  text-align: left;
+  margin-top: 3px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #9A9A9A;
+  text-decoration: underline;
+}
+
+.root-container table th option {
+  font-size: 16px;
+  text-align: left;
+}
+
+.header div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-leads-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-leads-info span:first-of-type {
+  max-width: 65%;
+}
+
+.user-leads-info span {
+  overflow: hidden;
+  max-width: 35%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.leads-goal-cell {
+  overflow: hidden;
+  width: 25%;
+  padding-left: 9px;
+  text-align: right;
+  font-size: 24px;
+  text-overflow: ellipsis;
+}
+
+.user-leads-info-cell {
+  width: 75%;
+  padding: 10px 0 10px 45px;
+  background: url(../resources/icon_user.svg) no-repeat left;
+  background-size: 37px;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  margin-top: 5px;
+  width: 100%;
+  height: 10%;
+  font-size: 15px;
+}
+
+.footer span:first-of-type {
+  cursor: pointer;
+  padding-bottom: 5px;
+  margin-right: 16px;
+  border-bottom: 3px solid #4B4B4B;
+  font-size: 20px;
+}
+
+.overload {
+  color: #5A9DFF;
+}

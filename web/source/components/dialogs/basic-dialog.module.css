@@ -1,0 +1,59 @@
+@import '../../styles/colors.css';
+
+.moire {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 65;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  text-align: center;
+}
+
+.icon {
+  width: 82px;
+  height: 82px;
+  margin: auto;
+}
+
+.message {
+  margin: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions button {
+  margin-right: 18px;
+  padding: 4px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.okButton {
+  background-color: var(--color-button-create);
+}
+
+.deleteButton {
+  background-color: var(--color-button-delete);
+}
+
+.cancelButton {
+  background-color: var(--color-button-cancel);
+}

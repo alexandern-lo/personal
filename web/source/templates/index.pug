@@ -1,0 +1,34 @@
+doctype html
+html(lang='en')
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+    if version
+      meta(name="version" content=version)
+
+    title AVEND
+
+    if !devServer
+      script.
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js');
+        }
+
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css')
+
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type='text/css')
+
+    if stylesheets
+      each url in stylesheets
+        link(href=url rel="stylesheet" type='text/css')
+
+    script(src='https://cdn.polyfill.io/v2/polyfill.js?features=es6,URL,Intl.~locale.en' type="text/javascript" defer)
+    if scripts
+      each url in scripts
+        script(src=url type="text/javascript" defer)
+
+  body
+    #root
+      i.material-icons

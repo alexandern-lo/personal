@@ -1,0 +1,117 @@
+.spinner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner {
+  z-index: 45;
+}
+
+.root-container {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 16px 20px;
+  font-size: 17px;
+}
+
+.root-container table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.root-container table tr {
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.root-container table td {
+  padding-top: 20px;
+  padding-bottom: 19px;
+}
+
+.resource-info-cell {
+  width: 75%;
+}
+
+.root-container td.resource-info-cell {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 33px;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.root-container td.resource-info-cell > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sent-opened-cell {
+  text-align: right;
+  width: 25%;
+}
+
+.sent-opened-cell > span {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 22px;
+  padding-left: 26px;
+}
+
+.sent-opened-cell > span:first-of-type {
+  margin-right: 8px;
+  background-image: url(../resources/icon_sent.svg);
+}
+
+.sent-opened-cell > span:last-of-type {
+  background-image: url(../resources/icon_folder.svg);
+}
+
+.acrobat-icon {
+  background-image: url(../resources/icon_acro.svg);
+}
+
+.word-icon {
+  background-image: url(../resources/icon_word.svg);
+}
+
+.excel-icon {
+  background-image: url(../resources/icon_excel.svg);
+}
+
+.power-point-icon {
+  background-image: url(../resources/icon_PW.svg);
+}
+
+.image-icon {
+  background-image: url(../resources/icon_image.svg);
+}
+
+.archive-icon {
+  background-image: url(../resources/icon_archive.svg);
+}
+
+.unknown-icon {
+  background-image: url(../resources/icon_unknown.svg);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+.footer > span:first-of-type {
+  cursor: pointer;
+  padding-bottom: 5px;
+  margin-right: 16px;
+  border-bottom: 3px solid #4B4B4B;
+  font-size: 20px;
+}

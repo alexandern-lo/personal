@@ -1,0 +1,38 @@
+.spinner-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.root-container {
+  display: flex;
+  width: calc(100% - 40px);
+  height: calc(100% - 46px);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 20px 30px;
+}
+
+.line-chart-container {
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5A9DFF;
+}
+
+.after-title {
+  font-size: 18px;
+}
+
+.last-period-count {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.all-time {
+  font-size: 20px;
+  margin-bottom: 30px;
+}

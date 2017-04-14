@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-content: center;
+  & button {
+    width: 16px;
+    background-size: 16px 16px;
+  }
+}
+
+.active {
+  background: url('assets/users-forms/set_inactive.svg') no-repeat center;
+  &:disabled {
+    background: url('assets/users-forms/set_inactive_disabled.svg') no-repeat center;
+    background-size: 16px 16px;
+  }
+}
+
+.inactive {
+  background: url('assets/users-forms/set_active.svg') no-repeat center;
+  &:disabled {
+    background: url('assets/users-forms/set_active_disabled.svg') no-repeat center;
+    background-size: 16px 16px;
+  }
+}

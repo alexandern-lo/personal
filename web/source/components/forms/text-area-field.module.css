@@ -1,0 +1,22 @@
+@import 'styles/colors.css';
+
+.container {
+  position: relative;
+}
+
+.container textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  resize: vertical;
+  font-size: 14px;
+  background-color: var(--color-input);
+}
+
+.counter {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 12px;
+  color: var(--color-input-progress);
+}

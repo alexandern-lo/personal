@@ -1,0 +1,109 @@
+.spinner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 16px 20px;
+}
+
+.root-container > table {
+  width: 100%;
+  box-sizing: border-box;
+  table-layout: fixed;
+}
+
+.root-container > table tr {
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.root-container > table th {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.root-container > table td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.cost-per-lead-header {
+  text-align: right;
+  width: 25%;
+}
+
+.event-expenses-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-expenses-info span:first-of-type {
+  max-width: 45%;
+}
+
+.event-expenses-info span {
+  overflow: hidden;
+  max-width: 55%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.cost-per-lead-cell {
+  overflow: hidden;
+  width: 25%;
+  padding-left: 15px;
+  text-align: right;
+  font-size: 24px;
+  text-overflow: ellipsis;
+}
+
+.event-expenses-info-cell {
+  width: 75%;
+}
+
+.footer {
+  padding-top: 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  font-size: 15px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-right: 24px;
+}
+
+.footer-info > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-expense-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #5A9DFF;
+}
+
+.overload {
+  color: #5A9DFF;
+}

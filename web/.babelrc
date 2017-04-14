@@ -1,0 +1,20 @@
+{
+  "compact": false,
+  "presets": [
+    "es2015",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "lodash",
+    "transform-runtime",
+    "transform-decorators-legacy"
+  ],
+  "env": {
+    "dev_server": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    }
+  }
+}

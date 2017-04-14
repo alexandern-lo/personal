@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<successful_payment_notification>
+  <account>
+    <username nil="true"></username>
+    <account_code>d25e1ba1-48ae-4a3d-a1a2-d61f84d2e895</account_code>
+    <email>konstantin@karyaev.com</email>
+    <first_name>кто</first_name>
+    <last_name>то</last_name>
+    <company_name nil="true"></company_name>
+    <phone nil="true"></phone>
+  </account>
+  <transaction>
+    <id>37e4acf12e4f0f77c3b1b4489b990eed</id>
+    <invoice_id>37e4acf11dc8c3a558a36c47eeb26d54</invoice_id>
+    <invoice_number_prefix></invoice_number_prefix>
+    <invoice_number type="integer">1001</invoice_number>
+    <subscription_id>3b20fdd8e32cc0409e287c4864aa6954</subscription_id>
+    <action>purchase</action>
+    <date type="datetime">2016-08-10T19:15:40Z</date>
+    <gateway>test</gateway>
+    <payment_method>credit_card</payment_method>
+    <amount_in_cents type="integer">1000</amount_in_cents>
+    <status>success</status>
+    <message>Successful test transaction</message>
+    <gateway_error_codes nil="true"></gateway_error_codes>
+    <failure_type nil="true"></failure_type>
+    <reference>8766131</reference>
+    <source>subscription</source>
+    <cvv_result code="M">Match</cvv_result>
+    <avs_result code="D">Street address and postal code match.</avs_result>
+    <avs_result_street nil="true"></avs_result_street>
+    <avs_result_postal nil="true"></avs_result_postal>
+    <billing_phone nil="true"></billing_phone>
+    <billing_postal>191023</billing_postal>
+    <billing_country>RU</billing_country>
+    <test type="boolean">true</test>
+    <voidable type="boolean">true</voidable>
+    <refundable type="boolean">true</refundable>
+  </transaction>
+</successful_payment_notification>

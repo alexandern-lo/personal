@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            android:id="@+id/section_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_gray"
+            android:background="@color/primary_light"
+            android:textStyle="bold"
+            android:paddingLeft="12dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+        <View
+            android:id="@+id/bot_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/secondary_light" />
+    </LinearLayout>
+</merge>

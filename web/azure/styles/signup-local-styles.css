@@ -1,0 +1,99 @@
+﻿html {
+  background: none;
+}
+
+body {
+  margin: 0;
+  position: static;
+  left: auto;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  background: url('https://portal.avend.co/azure/images/azure-bg.jpg') repeat;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.intro {
+  position: absolute;
+  top: 10px;
+  left: 83px;
+  width: 250px;
+  text-align: center;
+  color: white;
+}
+
+/* Adjustments to stock file from designer */
+
+#api {
+  position: absolute;
+  left: 302px;
+  top: 10px;
+  width: 422px;
+  overflow: hidden;
+  font-size: 13px;
+  color: #333;
+  text-align: justify;
+  line-height: normal;
+}
+
+#api p {
+  display: none;
+}
+#api div.errorText {
+  display: none;
+}
+#api div.helpText {
+  display: none;
+}
+#api label {
+  color: white;
+}
+
+#api a.helpLink {
+  color: #A0A0A0;
+  display: none;
+}
+
+.attrEntry input: invalid {
+  outline: 1px solid #A00000;
+}
+
+#email_ver_but_send {
+  width: 200px;
+}
+
+#returnLink {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  font-size: 20px;
+  width: 1300px;
+}
+
+#userDetails {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  width: 1300px;
+  font-family: 'Courier New, Courier, monospace';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  white-space: pre-wrap;
+}
+
+#goToAccountDetails {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+  width: 1300px;
+  font-size: 24px;
+}
+
+.buttons button:disabled {
+  background: #767676;
+  color: black;
+}

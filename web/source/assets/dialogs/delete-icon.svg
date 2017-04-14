@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>DAB3B04C-3960-4F4D-8038-F5A489D720AF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="41" cy="41" r="41"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="82" height="82" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="System-messages" transform="translate(-1434.000000, -393.000000)" stroke="#FA4A4B">
+            <g id="Group-7-Copy-2" transform="translate(1352.000000, 393.000000)">
+                <g id="Delete_icon" transform="translate(82.000000, 0.000000)">
+                    <path d="M26.5000001,28.0909091 L26.5000001,56.4545455 C26.4998251,57.3949773 26.8687251,58.2967636 27.5249751,58.9617136 C28.1814001,59.6264864 29.0716251,60 29.9998251,60 L51,60 C51.9282,60 52.818425,59.6264864 53.47485,58.9617136 C54.1311,58.2967636 54.5,57.3949773 54.5,56.4545455 L54.5,28.0909091" id="Stroke-1" stroke-width="3"></path>
+                    <path d="M46,31.6363636 L46,55.2727273" id="Stroke-2" stroke-width="3"></path>
+                    <path d="M35,31.6363636 L35,55.2727273" id="Stroke-3" stroke-width="3"></path>
+                    <path d="M23,26 L58,26" id="Stroke-4" stroke-width="3"></path>
+                    <path d="M46.3333333,27.0909091 L46.3333333,23.5454545 C46.3333333,21.5874773 44.7667566,20.0001773 42.8345579,20 L39.3321088,20 C37.39991,20.0001773 35.8333333,21.5874773 35.8333333,23.5454545 L35.8333333,27.0909091" id="Stroke-5" stroke-width="3"></path>
+                    <use id="Oval-3" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

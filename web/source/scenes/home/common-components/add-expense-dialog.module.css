@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  height: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  align-items: center;
+  border-bottom: 1px solid #EDEDED;
+  & span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.active {
+  background-color: #5A9DFF;
+  color: #2E343E;
+}
+
+.table-wrapper {
+  box-sizing: border-box;
+  width: 480px;
+  padding: 8px;
+}

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+    <style name="CustomDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+	<!-- Text -->
+	
+	<style name="Text" parent="@android:style/TextAppearance">
+		<item name="android:padding">4dp</item>
+		<item name="custom_font">OpenSans-Regular</item>
+	</style>
+
+	<style name="Text.Dark">
+		<item name="android:textColorHint">@color/primary_gray</item>
+		<item name="android:textColor">@color/primary_dark</item>
+	</style>
+
+	<style name="Text.Light">
+		<item name="android:textColorHint">@color/primary_gray</item>
+		<item name="android:textColor">@color/primary_light</item>
+	</style>
+
+	<style name="Text.Gray">
+		<item name="android:textColorHint">@color/secondary_gray</item>
+		<item name="android:textColor">@color/primary_gray</item>
+	</style>
+
+	<style name="Text.Gray.Big">
+		<item name="android:textSize">@dimen/text_large</item>
+	</style>
+
+	<style name="Text.Gray.Medium">
+		<item name="android:textSize">@dimen/text_medium</item>
+	</style>
+
+	<style name="Text.Gray.Small">
+		<item name="android:textSize">@dimen/text_small</item>
+	</style>
+
+	<style name="Text.Gray.XSmall">
+		<item name="android:textSize">@dimen/text_xsmall</item>
+	</style>
+	
+	<style name="Text.Dark.Big">
+		<item name="android:textSize">@dimen/text_large</item>
+	</style>
+
+	<style name="Text.Dark.Medium">
+		<item name="android:textSize">@dimen/text_medium</item>
+	</style>
+
+	<style name="Text.Dark.Small">
+		<item name="android:textSize">@dimen/text_small</item>
+	</style>
+
+	<style name="Text.Dark.XSmall">
+		<item name="android:textSize">@dimen/text_xsmall</item>
+	</style>
+
+	<style name="Text.Light.Big">
+		<item name="android:textSize">@dimen/text_large</item>
+	</style>
+
+	<style name="Text.Light.Medium">
+		<item name="android:textSize">@dimen/text_medium</item>
+	</style>
+
+	<style name="Text.Light.Small">
+		<item name="android:textSize">@dimen/text_small</item>
+	</style>
+    
+	<!-- Buttons -->
+
+	<style name="Button">
+		<item name="android:clickable">true</item>
+		<item name="custom_font">OpenSans-Regular</item>
+	</style>
+
+	<style name="Button.Menu">
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:paddingBottom">10dp</item>
+		<item name="android:paddingLeft">10dp</item>
+		<item name="android:background">@drawable/menu_selector</item>
+	</style>
+	
+	<style name="Button.Dark">
+		<item name="android:textColor">@color/primary_light</item>
+		<item name="android:background">@drawable/selector_dark</item>
+	</style>
+
+	<style name="Button.Gray">
+		<item name="android:textColor">@color/primary_light</item>
+		<item name="android:background">@drawable/selector_gray</item>
+	</style>
+
+	<style name="Button.Blue">
+		<item name="android:textColor">@color/primary_light</item>
+		<item name="android:background">@drawable/selector_blue</item>
+	</style>
+
+	<style name="Button.Light">
+		<item name="android:textColor">@color/primary_dark</item>
+		<item name="android:background">@drawable/selector_light</item>
+	</style>
+
+	<style name="Button.Light.Rounded">
+		<item name="android:background">@drawable/round_shape_button_light</item>
+	</style>
+	
+	<style name="Button.Dark.Rounded">
+		<item name="android:background">@drawable/round_shape_button_dark</item>
+	</style>
+
+	<style name="Button.Gray.Rounded">
+		<item name="android:background">@drawable/round_shape_button_gray</item>
+	</style>
+
+	<style name="Button.Blue.Rounded">
+		<item name="android:background">@drawable/round_shape_button_blue</item>
+	</style>
+
+	<style name="Button.Lead">
+		<item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:scaleType">centerInside</item>
+		<item name="android:src">@drawable/icon_addlead</item>
+		<item name="android:background">@drawable/lead_button</item>
+	</style>
+
+</resources>

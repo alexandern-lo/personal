@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{74377EC3-338C-4D01-B175-417AB3466BF0}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>LiveOakApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\LeadsService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\EventsService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\AuthService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ServiceLocator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\GraphApiService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\L10n.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\AttendeesService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\AttendeesFiltersService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\DateTimeService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\JsonService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Entities\CategoryOptionSelection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\ApiService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ApiExceptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\AttendeeDetailsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\AttendeeFiltersViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\AttendeesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\EventsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\EventDetailsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadDetailsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LoginViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\MainMenuViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\ProfileViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadDetailsEmailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\TermsOfUseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\TermsOfUseService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\FontService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadDetailsPhoneViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\ResourcesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\ResourcesService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\ResourceViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\AttendeeInfoItemViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\CachableCommandViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\CachableRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\StartupViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\PreloadService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\VCardParserViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCardStandardReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCardPhone.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCardSubpropertyCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCardWebsite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCardEmailAddress.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCardProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCardSubproperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)vCardScanner\vCardDeliveryAddress.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\SQLiteDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\CacheStorage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\AttendeeViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\EventViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\NavigationManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\ProfileService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\SubscriptionExpiredViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\ApplicationConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Entities\AttendeeFiltersEditor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Entities\Card.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Entities\CardPhone.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Entities\CardEmail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\AttendeeCategoryDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\AttendeeCategoryFilterDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\AttendeeCategoryOptionDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\AttendeeCategoryValueDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\AttendeeDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\AttendeeFilterDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\LeadDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\EventDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\ResourceDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\TermsOfUseDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\UserProfileDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\UserSubscriptionDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\EmailDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\PhoneDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Records\CacheItemRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Records\LeadRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\LeadStorage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\UserSQLiteDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadEmailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\JwtToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Base64UrlEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\ResponseWithDataDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Entities\Lead.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadDetailsQuestionViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadDetailsAnswerViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\EventQuestionDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\EventQuestionAnswerDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\LeadQuestionAnswerDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\LeadsUploadService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Entities\FileResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\FileResourcesService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadOverwriteViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\AgendaItemDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\AgendaItemViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\AgendaService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\AgendaViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\LeadsExportDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\LeadsExportReportDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\UserSettingsDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\LeadExportStatusDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\DashboardViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\DashboardDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\DashboardService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\DashboardResourceDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\DashboardEventDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\LeadsStatisticsDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\DashboardEventViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\DashboardResourceViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadsStatisticsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\EventExpenseDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\MoneyDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\MoneyViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\InboxItemViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\InboxViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\EventUserGoalDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\UserCrmConfigurationDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\CrmService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\Records\ExportRequestRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\RecentActivityViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\RecentActivityService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\LeadRecentActivityDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ViewModels\LeadRecentActivityViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\EventService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\UserDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\ResourcesSentTrackingRequestDTO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\Data\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\Data\Entities\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)vCardScanner\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\Data\NetworkDTO\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\Data\Records\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\AppResources.resx" />
+  </ItemGroup>
+</Project>

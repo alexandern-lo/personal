@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+
+.tabs {
+  margin-left: 30px;
+  flex-grow: 1;
+  & button {
+    height: 32px;
+    margin-right: 32px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    background: transparent;
+    color: #CDCCCC;
+    &.active {
+      color: #5A9DFF;
+      border-bottom: 2px solid;
+    }
+  }
+}
+
+.table tr > th:first-of-type,
+.table tr > td:first-of-type {
+  padding-left: 30px;
+}
+
+.table tr > th:last-of-type,
+.table tr > td:last-of-type {
+  padding-right: 10px;
+}
+
+.preview {
+  box-sizing: border-box;
+  border-top: 1px solid #CDCCCC;
+}

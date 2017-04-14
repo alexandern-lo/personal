@@ -1,0 +1,27 @@
+:root {
+  --menu-bg-color: #559FF8;
+}
+
+.menu {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  list-style: none;
+}
+
+.menu button {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: left;
+  color: white;
+  background-color: var(--menu-bg-color);
+  &:hover {
+    background-color: color(var(--menu-bg-color) tint(20%));
+  }
+  &:active {
+    background-color: color(var(--menu-bg-color) shade(20%));
+  }
+}

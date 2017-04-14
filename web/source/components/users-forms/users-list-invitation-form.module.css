@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.resend {
+  padding-left: 35px;
+  background: url('assets/users-forms/resend.svg') no-repeat left center;
+  background-size: 20px 20px;
+  color: #FA4A4B;
+  text-decoration: underline;
+  &:disabled {
+    background: url('assets/users-forms/resend_disabled.svg') no-repeat left center;
+    background-size: 20px 20px;
+    color: #CDCCCC;
+  }
+}

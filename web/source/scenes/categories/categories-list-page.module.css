@@ -1,0 +1,20 @@
+.options-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.collection table {
+  & tbody tr {
+    vertical-align: super;
+  }
+  & td {
+    height: auto;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  & th:last-of-type,
+  & td:last-of-type {
+    width: 65%;
+  }
+}

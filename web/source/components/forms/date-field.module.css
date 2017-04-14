@@ -1,0 +1,20 @@
+@import 'styles/forms.css';
+
+.input-wrapper {
+  position: relative;
+}
+
+.calendar-wrapper {
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+
+.calendar-wrapper.show-calendar {
+  display: block;
+}
+
+.input {
+  display: inline-block;
+  @apply --form-input;
+}

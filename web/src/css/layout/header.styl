@@ -1,0 +1,86 @@
+body
+  width 100%
+  height 100%
+  margin 0px
+  min-width min-screen-width //1280px
+  min-height 100%
+
+#root, div[data-reactroot]
+  width 100%
+  height 100%
+  min-width min-screen-width; //1280px
+  min-height 100%
+
+html
+  width 100%
+  height 100%
+  min-width min-screen-width //1280px
+  min-height 100%
+
+button:focus,button:active:focus,button:active
+  outline: none
+
+select::-ms-expand
+  display none
+
+textarea
+  overflow auto
+
+// Removes glow arount textfields
+input, textarea, select
+  outline none
+  box-shadow none
+  border none
+  border-radius 0
+
+.login-container
+  position absolute
+  top 0px
+  left 0px
+  width 100%
+  height 100%
+  {display-flex}
+  flex-direction column
+  flex-wrap nowrap
+  justify-content center
+  align-items center
+  align-content center
+  background-image url('../assets/bg.jpg')
+
+@media all and (max-width: 400px)
+  .login-container
+    position absolute
+    padding-top 2.09375rem
+    top 0px
+    left 0px
+    width 100%
+    height calc(100% - 2.09375rem)
+    {display-flex}
+    flex-direction column
+    flex-wrap nowrap
+    justify-content flex-start
+    align-items center
+    align-content center
+    background-image url('../assets/bg.jpg')
+
+@media all and (max-height: 450px)
+  .login-container
+    position absolute
+    padding-top 2.09375rem
+    top 0px
+    left 0px
+    width 100%
+    height calc(100% - 2.09375rem)
+    {display-flex}
+    flex-direction column
+    flex-wrap nowrap
+    justify-content flex-start
+    align-items center
+    align-content center
+    background-image url('../assets/bg.jpg')
+
+.login-container p
+  font-mixin(1.0594rem, 300, normal, left)
+  color white-color
+  margin-top 1.130625rem
+  margin-bottom 1.25625rem

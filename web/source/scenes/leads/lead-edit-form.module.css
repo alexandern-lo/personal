@@ -1,0 +1,27 @@
+.preview {
+  margin-top: 10px;
+}
+
+.preview,
+.preview img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.placeholder {
+  width: 80px;
+  height: 80px;
+  background: url(assets/user_photo.svg) no-repeat center;
+}
+
+.business-card {
+  display: flex;
+}
+
+.business-card > div:first-child {
+  margin-right: 5px;
+}
+
+.business-card .placeholder {
+  background-image: url(assets/business_card.svg);
+}

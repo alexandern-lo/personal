@@ -1,0 +1,40 @@
+﻿using System.Xml;
+
+namespace Recurly.AspNetCore.List
+{
+    public class SubscriptionList : RecurlyList<Subscription>
+    {
+        internal SubscriptionList(string baseUrl) : base(Client.HttpRequestMethod.Get, baseUrl)
+        {
+        }
+
+        public override RecurlyList<Subscription> Start
+        {
+            get { return HasStartPage() ? new SubscriptionList(StartUrl) : RecurlyList.Empty<Subscription>(); }
+        }
+
+        public override RecurlyList<Subscription> Next
+        {
+            get { return HasNextPage() ? new SubscriptionList(NextUrl) : RecurlyList.Empty<Subscription>(); }
+        }
+
+        public override RecurlyList<Subscription> Prev
+        {
+            get { return HasPrevPage() ? new SubscriptionList(PrevUrl) : RecurlyList.Empty<Subscription>(); }
+        }
+
+        internal override void ReadXml(XmlReader reader)
+        {
+            while (reader.Read())
+            {
+                if (reader.Name == "subscriptions" && reader.NodeType == XmlNodeType.EndElement)
+                    break;
+
+                if (reader.NodeType == XmlNodeType.Element && reader.Name == "subscription")
+                {
+                    Add(new Subscription(reader));
+                }
+            }
+        }
+    }
+}

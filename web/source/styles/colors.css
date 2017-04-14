@@ -1,0 +1,11 @@
+:root {
+
+  --color-input: #F4F5F6;
+  --color-input-progress: #5A9DFF;
+  --color-input-error: #FA4A4B;
+
+  --color-button-create: #5A9DFF;
+  --color-button-delete: #FF615A;
+  --color-button-cancel: #9A9A9A;
+  --color-button-disabled: #CDCCCC;
+}

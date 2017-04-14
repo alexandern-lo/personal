@@ -1,0 +1,26 @@
+@import 'styles/colors.css';
+
+.select :global(.Select-control) {
+  border: none;
+}
+
+.select :global(.Select-input) input {
+  height: 10px;
+  line-height: 10px;
+}
+
+.select :global(.Select-placeholder) {
+  margin-top: 2px;
+}
+
+.select :global(.Select-value) span {
+  color: initial;
+}
+
+.select :global(.Select-input) input,
+.select :global(.Select-placeholder),
+.select :global(.Select-value) span,
+.select :global(.Select-option) {
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<new_invoice_notification>
+  <account>
+    <username nil="true"></username>
+    <account_code>7cd2b534-b690-4bdd-92c3-835b12923ff2</account_code>
+    <email>konstantin@karyaev.com</email>
+    <first_name>кто</first_name>
+    <last_name>то</last_name>
+    <company_name nil="true"></company_name>
+    <phone nil="true"></phone>
+  </account>
+  <invoice>
+    <uuid>inv-7o9xmtizopygIw</uuid>
+    <subscription_id>37e4acf0d15ccacd284db547579c7e9d</subscription_id>
+    <state>collected</state>
+    <invoice_number_prefix></invoice_number_prefix>
+    <invoice_number type="integer">1001</invoice_number>
+    <po_number nil="true"></po_number>
+    <vat_number nil="true"></vat_number>
+    <total_in_cents type="integer">1000</total_in_cents>
+    <currency>USD</currency>
+    <date type="datetime">2016-08-10T19:15:40Z</date>
+    <closed_at type="datetime">2016-08-10T19:15:40Z</closed_at>
+    <net_terms type="integer">0</net_terms>
+    <collection_method>automatic</collection_method>
+  </invoice>
+</new_invoice_notification>

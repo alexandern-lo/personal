@@ -1,0 +1,42 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "Avend.Common": {
+      "version": "1.0.0-*",
+      "target": "project"
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.1.0",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
+    "Microsoft.Extensions.Configuration.Json": "1.1.0",
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.0"
+  },
+
+  "publishOptions": {
+    "include": [
+      "appsettings.json",
+      "appsettings.development.json",
+      "appsettings.staging.json",
+      "appsettings.production.json"
+    ]
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      //"imports": "dnxcore50",
+      "Dependencies": {
+        "Microsoft.NETCore.App": {
+          "Type": "platform",
+          "Version": "1.0.1"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import 'styles/colors.css';
+
+.container {
+  display: flex;
+  background-color: var(--color-input);
+}
+
+.select {
+  display: initial;
+  width: 70px;
+  min-width: 70px;
+  color: #9A9A9A;
+}
+
+.separator {
+  width: 2px;
+  min-width: 2px;
+  padding: 4px 0;
+  align-self: stretch;
+}
+
+.separator > div {
+  content: ' ';
+  width: 2px;
+  height: 100%;
+  background-color: #CDCCCC;
+}

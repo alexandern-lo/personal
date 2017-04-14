@@ -1,0 +1,3 @@
+.fix-ie-close-icon::-ms-clear {
+  display: none;
+}

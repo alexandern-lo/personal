@@ -1,0 +1,34 @@
+.image-row td:first-of-type {
+  vertical-align: bottom;
+}
+
+.category-list {
+  width: 40%;
+  padding-top: 80px;
+  font-size: 14px;
+  color: #030404;
+}
+
+.category-list-title {
+  width: 100%;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  font-weight: 600;
+  border-bottom: solid 1px #CDCCCC;
+}
+
+.category-list-items {
+  max-height: 490px;
+  min-height: calc(100vh - 240px);
+  padding: 5px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.category-name {
+  margin-bottom: 8px;
+}
+
+.category-select {
+  margin-bottom: 21px;
+}

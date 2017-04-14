@@ -1,0 +1,20 @@
+.content-table {
+  min-height: 100%;
+}
+
+.content-table > tbody > tr {
+  &:first-of-type > td {
+    height: 60px;
+    padding-left: 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #D8D8D8;
+  }
+  & > td:last-of-type {
+    width: 335px;
+    border-left: 1px solid #D8D8D8;
+  }
+}
+
+.content-cell {
+  vertical-align: top;
+}

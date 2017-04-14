@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical">
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:background="@color/dashboard_gray"
+		android:layout_alignParentTop="true"/>
+	<LiveOakApp.Droid.CustomViews.CustomTextView
+		android:id="@+id/event_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+        android:ellipsize="end"
+		android:scrollHorizontally="true"
+	    android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_toLeftOf="@+id/goal_title"
+		style="@style/Text.Dark"
+		android:textSize="12sp"
+		app:custom_font="OpenSans-Regular" />
+	<LiveOakApp.Droid.CustomViews.CustomTextView
+		android:id="@+id/goal_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/goal_number"
+		android:layout_alignParentTop="true"
+		app:localized_string_id="Goal"
+		app:comment="Goal"
+		style="@style/Text.Gray"
+		android:textSize="12sp"
+		app:custom_font="OpenSans-Regular" />
+	<LiveOakApp.Droid.CustomViews.CustomTextView
+		android:id="@+id/goal_number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/edit_goal_button"
+		android:layout_alignParentTop="true"
+		style="@style/Text.Dark"
+		android:textSize="12sp"
+		app:custom_font="OpenSans-Semibold" />
+	<ProgressBar
+		android:id="@+id/progress_bar"
+		android:layout_width="match_parent"
+		android:layout_height="8dp"
+        android:layout_below="@id/event_title"
+		android:layout_alignParentLeft="true"
+        android:layout_alignRight="@id/goal_number"
+		android:layout_gravity="center_vertical"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:progressDrawable="@drawable/dark_bold_progress_bar" />
+	<ImageButton
+		android:id="@+id/edit_goal_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_centerVertical="true"
+		android:layout_toLeftOf="@+id/leads_taken"
+		android:src="@drawable/button_edit"
+		android:background="@android:color/transparent" />
+	<LiveOakApp.Droid.CustomViews.CustomTextView
+		android:id="@+id/leads_taken"
+		android:layout_width="80dp"
+		android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+		android:gravity="center_vertical|right"
+		android:layout_alignParentRight="true"
+		style="@style/Text.Dark"
+		android:textSize="24sp"
+		app:custom_font="OpenSans-Semibold" />
+</RelativeLayout>

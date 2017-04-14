@@ -1,0 +1,66 @@
+.spinner-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.spinner {
+  z-index: 45;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.widget-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+
+.widget-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5A9DFF;
+}
+
+.widget-after-title {
+  font-size: 18px;
+  color: #2E343E;
+}
+
+.stats-count {
+  font-size: 60px;
+  font-weight: bold;
+  color: #030404;
+  text-align: center;
+}
+
+.subscription-button {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5A9DFF;
+}
+
+.passive-button {
+  color: #9A9A9A;
+}
+
+.line-chart-container {
+  flex-grow: 1;
+}
+
+.control-panel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}

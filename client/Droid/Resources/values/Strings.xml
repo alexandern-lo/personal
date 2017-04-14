@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Avend</string>
+	<string name="open_drawer">Open main menu</string>
+	<string name="close_drawer">Close main menu</string>
+	<string name="sing_out_button">Sing Out</string>
+	<string name="email">Email</string>
+	<string name="password">Password</string>
+	<string name="login_error">Invalid email or password.</string>
+	<string name="terms_of_use">By signing in, I accept the Terms of Use and Privacy &amp;\nCookie Policy and give this app permission to acces My\nInfo.</string>
+	<string name="restore_button">
+		<u>Forgot email or password?</u>
+	</string>
+	<string name="login">Login</string>
+	<string-array name="dummy_recent_events">
+		<item>Ostrich riding expo 2016</item>
+		<item>Bamboo furniture congress</item>
+		<item>Modern snow building</item>
+		<item>Month of the dogs</item>
+		<item>Sonic the hedgehog convention</item>
+	</string-array>
+</resources>

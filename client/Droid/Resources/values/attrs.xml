@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <declare-styleable name="Localizable">
+       <attr name="localized_string_id" format="string" />
+       <attr name="comment" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="Fontable">
+        <attr name="custom_font" format="string" />
+		<attr name="underline" format="boolean" />
+		<attr name="cropFontPaddings" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="RoundedCornerListView">
+        <attr name="clipCornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>

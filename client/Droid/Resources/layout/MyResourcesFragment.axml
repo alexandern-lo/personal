@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light">
+    <LinearLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:background="@color/secondary_dark">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small" />
+        <LiveOakApp.Droid.CustomViews.CustomTextView
+            style="@style/Text.Light.Medium"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:localized_string_id="UpdatingList"
+            app:comment="Updating the list" />
+    </LinearLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/resources_list_refresher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="75dp"
+            android:clipToPadding="false"
+            android:id="@+id/resourcesList" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <LiveOakApp.Droid.CustomViews.CustomButton
+        android:id="@+id/send_resources_button"
+        style="@style/Button.Blue.Rounded"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:padding="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="@style/Text.Light.Medium"
+        android:layout_gravity="center"
+        app:localized_string_id="SendResourcesButton"
+        app:comment="Send resources"
+        android:drawableLeft="@drawable/leads_sendresources_icon" />
+</RelativeLayout>

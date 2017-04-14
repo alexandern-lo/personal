@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  height: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  align-items: center;
+  border-bottom: 1px solid #EDEDED;
+  & span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

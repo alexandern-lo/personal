@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="4dp"
+    android:background="@android:color/white">
+    <LiveOakApp.Droid.CustomViews.CustomTextView
+        android:id="@+id/OptionTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        style="@style/Text.Dark.Medium" />
+    <com.kyleduo.switchbutton.SwitchButton
+        android:id="@+id/OptionSwitch"
+        android:showText="false"
+        app:kswAnimationDuration="300"
+        app:kswBackDrawable="@drawable/amazing_switch_track"
+        app:kswBackMeasureRatio="1.4"
+        app:kswThumbDrawable="@drawable/amazing_switch_selector"
+        app:kswThumbMarginBottom="-8dp"
+        app:kswThumbMarginLeft="-5dp"
+        app:kswThumbMarginRight="-5dp"
+        app:kswThumbMarginTop="-2.5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_marginRight="12dp" />
+</LinearLayout>

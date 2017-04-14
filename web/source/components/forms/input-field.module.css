@@ -1,0 +1,10 @@
+@import 'styles/forms.css';
+
+.container {
+  display: flex;
+}
+
+.input {
+  display: inline-block;
+  @apply --form-input;
+}

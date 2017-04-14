@@ -1,0 +1,69 @@
+@import '../../styles/colors.css';
+
+.moire {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 65;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.form {
+  width: 480px;
+  text-align: left;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  min-height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 2px solid #EDEDED;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E343E;
+}
+
+.close {
+  width: 16px;
+  height: 16px;
+  float: right;
+  background: url('assets/modal-view/close.svg') no-repeat center;
+  background-size: 16px 16px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 36px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.placeholder {
+  display: inline-block;
+  margin: auto;
+}
+
+.footer button {
+  width: 97px;
+  height: 32px;
+  background-color: var(--color-button-create);
+  color: #FFF;
+  &:disabled {
+    background-color: #FBFBFB;
+    color: #666767;
+  }
+}

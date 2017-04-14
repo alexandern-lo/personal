@@ -1,0 +1,69 @@
+@import "styles/colors.css";
+
+.table td:first-of-type {
+  width: 135px;
+  text-align: right;
+}
+
+.table label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.row > td {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  vertical-align: top;
+}
+
+.label {
+  padding-right: 20px;
+}
+
+.table .table .row > td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.separator-row > td {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  margin: 8px 0;
+  background-color: #F4F5F6;
+}
+
+.error-row > td {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  & > p {
+    margin-top: -10px;
+  }
+}
+
+.table .table .error-row > td > p {
+  margin-top: 0;
+}
+
+.hint-row > td {
+  height: 0;
+  padding-top: 0;
+  color: #AEAEAE;
+  & > div {
+    margin-top: -9px;
+  }
+}
+
+.row input {
+  box-sizing: border-box;
+}
+
+.row :global(input.invalid) {
+  border-bottom: 2px solid var(--color-input-error);
+}

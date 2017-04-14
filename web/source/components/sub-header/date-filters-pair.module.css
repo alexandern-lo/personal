@@ -1,0 +1,32 @@
+.container {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 0.58625rem;
+  white-space: nowrap;
+}
+
+.dash {
+  display: inline-block;
+  width: 13px;
+  height: 2px;
+  margin-right: 0.41875rem;
+  border: 0;
+  background-color: black;
+}
+
+.data-picker-wrapper {
+  display: inline-block;
+  width: 8rem;
+  height: 1.4656rem;
+  margin-right: 0.41875rem;
+}
+
+.data-picker-wrapper input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 0.58625rem;
+}
+
+.data-picker-wrapper input::placeholder {
+  color: black;
+}

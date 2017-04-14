@@ -1,0 +1,24 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.1",
+
+    "Qoden.Validation": "1.0.0-*",
+    "System.Text.Encodings.Web": "4.3.0",
+    "Microsoft.Extensions.Logging": "1.1.0",
+    "Serilog": "2.3.0",
+    "Serilog.Settings.Configuration": "2.3.0-dev-00042",
+    "Serilog.Sinks.Console": "2.1.0",
+    "Serilog.Sinks.Trace": "2.1.0",
+    "Serilog.Sinks.RollingFile": "3.3.0",
+    "Serilog.Enrichers.Thread": "3.0.0",
+    "Serilog.Formatting.Compact": "1.0.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

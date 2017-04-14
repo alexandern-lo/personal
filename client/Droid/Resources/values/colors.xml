@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+<item name="primary_light" type="color">#F3F3F3</item>
+<item name="primary_gray" type="color">#A0A0A0</item>
+<item name="primary_dark" type="color">#333333</item>
+<item name="primary_green" type="color">#00DA60</item>
+<item name="primary_blue" type="color">#5395ff</item>
+	
+<item name="secondary_light" type="color">#E3E3E3</item>
+<item name="secondary_gray" type="color">#909090</item>
+<item name="secondary_dark" type="color">#232323</item>
+<item name="secondary_green" type="color">#00CA50</item>
+<item name="secondary_blue" type="color">#4385ef</item>
+
+<item name="primary_white" type="color">#FFFFFF</item>
+	
+<item name="dashboard_gray" type="color">#EDEEF0</item>
+	
+<item name="primary_transparent_gray" type="color">#88777777</item>
+<item name="secondary_transparent_gray" type="color">#33777777</item>
+
+<item name="primary_transparent_dark" type="color">#77000000</item>
+
+</resources>
+

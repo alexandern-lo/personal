@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LiveOakApp.Droid.CustomViews.CustomTextView
+        android:id="@+id/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_white_with_shadow"
+        style="@style/Text.Dark.Medium"
+        android:minHeight="70dp" />
+    <LiveOakApp.Droid.CustomViews.RoundedCornerListView
+        android:layout_marginTop="8dp"
+        android:id="@+id/answers_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/primary_light"
+        android:dividerHeight="1dp"
+        android:paddingLeft="0.5dp"
+        android:paddingRight="0.5dp"
+        android:paddingBottom="1dp"
+        app:clipCornerRadius="6dp"
+        android:background="@drawable/round_white_with_shadow" />
+</LinearLayout>

@@ -1,0 +1,125 @@
+.dropdown {
+  position: relative;
+  width: 330px;
+  background-color: #FBFBFB;
+  outline: none;
+  cursor: default;
+  font-size: 12px;
+}
+
+.dropdown-header {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.dropdown * {
+  cursor: default;
+}
+
+.dropdown-img {
+  width: 10px;
+  height: 8px;
+  background-image: url(./icon_dropdown.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* TODO: fix top left */
+.menu {
+  position: absolute;
+  z-index: 65;
+  display: none;
+  width: 306px;
+  max-height: 338px;
+  padding: 6px 0;
+  margin: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  list-style: none;
+}
+
+.menu-item {
+  display: flex;
+  padding-left: 6px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 7px 0;
+}
+
+.menu-item > a {
+  flex-grow: 1;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.menu-item:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  overflow-y: auto;
+  white-space: nowrap;
+  max-height: 255px;
+  top: -10px;
+  left: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.sub-menu ul {
+  list-style: none;
+  padding: 6px 0;
+  margin: 0;
+  background-color: white;
+}
+
+.sub-menu li {
+  display: flex;
+  padding: 0 26px 0 6px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7px 0;
+}
+
+.sub-menu li a {
+  flex-grow: 1;
+  margin-left: 5px;
+  word-wrap: normal;
+}
+
+.show {
+  display: block;
+}
+
+.check-mark-size {
+  width: 15px;
+  height: 10px;
+}
+
+.check-mark-img {
+  background-image: url(./icon_check_mark.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checked-items-count {
+  margin-right: 5px;
+  color: #5A9DFF;
+}
+
+.arrow-img {
+  margin-right: 12px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(270deg);
+  background-image: url(./icon_dropdown.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

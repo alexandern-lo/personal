@@ -1,0 +1,75 @@
+.spinner-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 20px 39px;
+  height: 100%;
+}
+
+.widget-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5A9DFF;
+}
+
+.widget-after-title {
+  font-size: 18px;
+  color: #2E343E;
+}
+
+.registered-users-count {
+  font-size: 60px;
+  font-weight: bold;
+  color: #030404;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.chart-legend {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55%;
+}
+
+.legend-title {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-left: 24px;
+  white-space: nowrap;
+}
+
+.paid-icon {
+  background-image: url('../resources/circle_blue.svg');
+}
+
+.trial-icon {
+  background-image: url('../resources/circle_black.svg');
+}
+
+.legend-count-info {
+  padding-left: 24px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #030404;
+}
+
+.doughnut-chart-container {
+  height: 100%;
+  flex-grow: 1;
+}

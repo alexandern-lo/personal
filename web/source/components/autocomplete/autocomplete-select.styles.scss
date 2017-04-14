@@ -1,0 +1,12 @@
+$select-input-bg:                   #F4F5F6;
+$select-input-border-color:         #CCC;
+$select-input-border-radius:        0;
+$select-input-border-focus:         transparent;
+$select-input-height:               25px;
+
+$select-item-font-size:             12px;
+$select-loading-size:               12px;
+
+$select-menu-max-height:            240px;
+
+@import '~react-select/scss/default';

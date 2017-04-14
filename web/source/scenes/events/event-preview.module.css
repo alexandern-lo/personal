@@ -1,0 +1,52 @@
+@import 'styles/colors.css';
+
+.menu {
+  display: flex;
+  height: 70px;
+  margin-left: 14px;
+  padding-right: 7px;
+  align-items: center;
+  border-bottom: 1px solid #CDCCCC;
+  font-weight: 400;
+  color: #808080;
+}
+
+.menuButton {
+  display: inline-flex;
+  width: 92px;
+  height: 50px;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #CDCCCC;
+  cursor: pointer;
+  &:last-of-type {
+    border-right: 0;
+  }
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  background: transparent no-repeat center;
+}
+
+.attendees .icon {
+  background-image: url('assets/preview_icon_attendees.svg');
+}
+
+.agenda .icon {
+  background-image: url('assets/preview_icon_agenda.svg');
+}
+
+.questions .icon {
+  background-image: url('assets/preview_icon_questions.svg');
+}
+
+.users .icon {
+  background-image: url('assets/preview_icon_users.svg');
+}
+
+.categories .icon {
+  background-image: url('assets/preview_icon_cat.svg');
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<new_subscription_notification>
+  <account>
+    <username nil="true"></username>
+    <account_code>7cd2b534-b690-4bdd-92c3-835b12923ff2</account_code>
+    <email>konstantin@karyaev.com</email>
+    <first_name>кто</first_name>
+    <last_name>то</last_name>
+    <company_name nil="true"></company_name>
+    <phone nil="true"></phone>
+  </account>
+  <subscription>
+    <plan>
+      <plan_code>recurly_individual_monthly</plan_code>
+      <name>Individual</name>
+    </plan>
+    <uuid>37e4acf0d15ccacd284db547579c7e9d</uuid>
+    <state>active</state>
+    <quantity type="integer">1</quantity>
+    <total_amount_in_cents type="integer">1000</total_amount_in_cents>
+    <subscription_add_ons type="array"/>
+    <activated_at type="datetime">2016-08-10T19:15:40Z</activated_at>
+    <canceled_at type="datetime" nil="true"></canceled_at>
+    <expires_at type="datetime" nil="true"></expires_at>
+    <current_period_started_at type="datetime">2016-08-10T19:15:40Z</current_period_started_at>
+    <current_period_ends_at type="datetime">2016-09-10T19:15:40Z</current_period_ends_at>
+    <trial_started_at type="datetime" nil="true"></trial_started_at>
+    <trial_ends_at type="datetime" nil="true"></trial_ends_at>
+  </subscription>
+</new_subscription_notification>

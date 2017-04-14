@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<Spinner
+			android:id="@+id/email_type"
+			android:minWidth="80dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:singleLine="true" />
+		<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:background="@color/primary_dark" />
+		<LiveOakApp.Droid.CustomViews.CustomEditText
+			android:id="@+id/email_edit"
+			android:layout_width="0dp"
+			style="@style/Text.Dark.Medium"
+			android:layout_height="wrap_content"
+			android:layout_weight="8"
+			android:singleLine="true"
+			android:inputType="textEmailAddress" 
+			android:imeOptions="actionNext"
+			android:background="@null" />
+		<ImageButton
+			android:id="@+id/delete_button"
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:src="@drawable/leads_minus"
+			android:background="@android:color/transparent"
+			android:textColor="@color/primary_dark" />
+	</LinearLayout>
+	<View
+		android:id="@+id/email_underline"
+		android:layout_marginTop="2dp"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/primary_gray" />
+</LinearLayout>

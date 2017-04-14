@@ -1,0 +1,35 @@
+@import 'styles/colors.css';
+
+.image-row td:first-of-type {
+  vertical-align: bottom;
+}
+
+.date-wrapper {
+  display: flex;
+  & > div:first-of-type {
+    flex-grow: 5;
+  }
+  & > div:last-of-type {
+    margin-left: 20px;
+    margin-right: 5px;
+    text-align: right;
+    & input {
+      margin-right: 15px;
+    }
+  }
+}
+
+.state-wrapper {
+  display: flex;
+  & > div {
+    width: 50%;
+  }
+}
+
+.zip-wrapper {
+  padding-left: 20px;
+  & td:first-of-type {
+    width: 10%;
+    white-space: nowrap;
+  }
+}
